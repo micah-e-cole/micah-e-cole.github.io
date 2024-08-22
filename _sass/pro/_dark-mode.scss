@@ -1,0 +1,35 @@
+// Copyright (c) 2019 Florian Klampfer <https://qwtel.com/>
+
+#_dark-mode {
+  font-size: 1.25rem;
+}
+
+@mixin dark-mode() {
+  // --body-color: #ccc;
+  // --body-bg: var(--dark-mode-body-bg);
+  // --border-color: var(--dark-mode-border-color);
+  --body-color: rgba(220, 219, 216, 0.84);
+  --body-bg: #2e373e;
+  --border-color: #2e373e;
+  --gray: rgba(220, 219, 216, 0.84);
+  --gray-bg: rgba(255,255,255,.033);
+  --gray-text: rgba(255, 255, 255, 0.26);
+  --menu-text: rgba(220, 219, 216, 0.84);
+  --inv-body-color: #{$body-color};
+  --inv-body-bg: #{$body-bg};
+
+  .content {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@media screen {
+  body.light-mode {
+    @include light-mode();
+  }
+
+  body.dark-mode {
+    @include dark-mode();
+  }
+}
