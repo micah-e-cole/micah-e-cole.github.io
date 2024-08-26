@@ -9,8 +9,9 @@
 
 lang:                  en
 
-title:                 MB
-
+title:                 MC
+favicon: assets/icons/favicon.ico
+icon: /assets/img/logo.png
 # (Run on live server)
 # bundle exec jekyll serve --livereload -o 
 
@@ -33,6 +34,7 @@ author:
   # Used by `jekyll-feed`:
   name:                Micah Cole
   # email:             
+
 
 menu:
   - title: Projects
