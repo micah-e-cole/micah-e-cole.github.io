@@ -12,7 +12,7 @@ lang:                  en
 title:                 MC
 
 favicon: /assets/icons/favicon.png
-
+apple_touch_icon: /assets/icons/favicon.png
 # icon: /assets/img/logo.png
 # (Run on live server)
 # bundle exec jekyll serve --livereload -o 
