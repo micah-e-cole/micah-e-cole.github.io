@@ -2,10 +2,10 @@
 basics:
   name: "Micah Cole"
   # label: "Freelance"
-  picture: "assets/img/profileNoBackground.png"
+  picture: "assets/img/logo.png"
   # email: "micah@example.com"
   # phone: "555-555-5555"
-  # website: "https://micahbraun.com"
+  # website: "https://micah-e-cole.github.io/"
   summary: >
     Self-motivated and experienced professional with a passion for finding solutions to complex issues, adept at analyzing, processing, and managing data using Python, SQL, and Microsoft Excel. Skilled in stakeholder engagement, project management, and communication, with a strong understanding of web technologies, diagnostics, and end-user technology products. Seeking to leverage technical proficiency expertise in data analysis and reporting to drive operational efficiency and support evidence-based decision-making.
   location:
@@ -16,8 +16,8 @@ basics:
     region: "WA"
   # profiles:
     # - network: "LinkedIn"
-    #   username: "micahbraun"
-    #   url: "https://www.linkedin.com/in/micahbraun/"
+    #   username: "micah cole"
+    #   url: "https://www.linkedin.com/in/micah-e-cole/"
 
 work:
   - company: "Freelance"

@@ -14,7 +14,7 @@ favicon: assets/icons/favicon.ico
 icon: /assets/img/logo.png
 # (Run on live server)
 # bundle exec jekyll serve --livereload -o 
-
+description: ""
 keywords:              [
   'Python',
   'JavaScript',
@@ -28,7 +28,7 @@ keywords:              [
 ]
 
 # A (square) logo for your site.
-# logo:                  /assets/img/logo.png
+logo:                  /assets/img/logo.png
 
 author:
   # Used by `jekyll-feed`:
