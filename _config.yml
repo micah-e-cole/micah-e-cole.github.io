@@ -10,7 +10,9 @@
 lang:                  en
 
 title:                 MC
-favicon: assets/icons/favicon.ico
+
+favicon: /assets/icons/favicon.ico
+
 # icon: /assets/img/logo.png
 # (Run on live server)
 # bundle exec jekyll serve --livereload -o 
