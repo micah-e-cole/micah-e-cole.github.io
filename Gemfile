@@ -16,13 +16,14 @@ gem "ducktape"
 gem "bundler"
 gem "drb"
 gem "i18n"
-gem "activesupport"
+gem "activesupport", "~> 7.0.4.3"
 gem "dnsruby"
 gem "facets"
 gem "ref"
 gem "whittle"
 gem "exifr"
 gem "listen"
+gem "commonmarker", "~> 0.23.9"
 
 
 group :jekyll_plugins do
@@ -49,4 +50,3 @@ end
 
 gem 'wdm' if Gem.win_platform?
 gem "tzinfo-data" if Gem.win_platform?
-gem 'exifr'
