@@ -11,8 +11,8 @@ lang:                  en
 
 title:                 MC
 
-favicon: /assets/icons/favicon.png
-apple_touch_icon: /assets/icons/favicon.png
+favicon: /assets/icons/favicon-new.png
+apple_touch_icon: /assets/icons/favicon-new.png
 # icon: /assets/img/logo.png
 # (Run on live server)
 # bundle exec jekyll serve --livereload -o 
