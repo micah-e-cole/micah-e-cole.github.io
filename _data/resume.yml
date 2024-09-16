@@ -72,18 +72,26 @@ work:
       - "Advised staff and faculty on use of complex datasets and provided support in incorporating new features, ensuring optimal utilization of reports while maintaining FERPA compliance."
       - "Acted as a liaison between students, staff, and faculty and the larger University Financial Aid office, by communicating student needs and translating technical requirements back to students, staff, and faculty. "
 
-  - company: "Self-Employed"
-    position: "Private Contractor"
-    website: ""
-    startDate: "2006-09-01"
-    endDate: "2011-11-01"
-    summary: >
-      Operated as a freelancing private contractor while working on Associate's degree out of high school.
-    highlights:
-      - "Performed landscaping: yard maintenance, commercial planting, event preparation, and pest control."
-      - "Managed and completed construction projects: drywall, mold remediation, electrical work, and interior and exterior painting."
+  # - company: "Self-Employed"
+  #   position: "Private Contractor"
+  #   website: ""
+  #   startDate: "2006-09-01"
+  #   endDate: "2011-11-01"
+  #   summary: >
+  #     Operated as a freelancing private contractor while working on Associate's degree out of high school.
+  #   highlights:
+  #     - "Performed landscaping: yard maintenance, commercial planting, event preparation, and pest control."
+  #     - "Managed and completed construction projects: drywall, mold remediation, electrical work, and interior and exterior painting."
 
 intern:
+  - organization: "University of Mary Washington"
+    position: "Work Study | Financial Aid"
+    website: ""
+    startDate: "2012-01-01"
+    endDate: "2013-08-11"
+    summary: "Assisted in managing and analyzing student financial aid data, ensuring accurate and up-to-date records in line with federal, state, and institutional regulations."
+    highlights: "Learned and utilized the Banner Student Information System (SIS) and became fluent in the front-end utilization and code search process to aid students and coworkers in answering questions regarding their federal financial aid."
+
   - organization: "University of Mary Washington"
     position: "Student Research Intern"
     website: "https://www.slideshare.net/hrichters/research-and-creativity-day-poster-29696943"
@@ -100,6 +108,13 @@ volunteer:
     startDate: "2024-04-18"
     endDate: "2024-07-20"
     summary: "Provided consulting for organizational data analysis and file management for the Executive Director of 501c(3) service-based nonprofit which provides social and emotional enrichment for children of military parents."
+  
+  - organization: "Mary Washington Hospital"
+    position: "Patient Services Volunteer"
+    website: ""
+    startDate: "2003-06-01"
+    endDate: "2003-06-30"
+    summary: "Supported the nurse manager and administrative team by managing front desk calls in post-surgical and maternity units."
 
 education:
   - institution: "Lake Washington Institute of Technology/Western Governors University"
@@ -194,15 +209,15 @@ certificates:
     awarder: "University of Washington Professional & Continuing Education"
     summary: "This three-course certificate program, provides a thorough understanding of the power of Python libraries as well as standard programming styles and idioms. It explores different aspects of network-based programming with Python, including developing data systems and web applications, and larger systems development issues and advanced topics. It covers unit testing, coding style and Python PEP8 compliance to learn the best practices for writing Python code."
 
-  - title: "COMPTIA Security+ (In Progress)"
-    date: "2024-09-30"
-    awarder: "COMPTIA"
-    summary: "The Security+ certification, offered by CompTIA (Computing Technology Industry Association), is a globally recognized certification that validates the foundational skills necessary to perform core security functions and pursue an IT security career."
+  # - title: "COMPTIA Security+ (In Progress)"
+  #   date: "2024-09-30"
+  #   awarder: "COMPTIA"
+  #   summary: "The Security+ certification, offered by CompTIA (Computing Technology Industry Association), is a globally recognized certification that validates the foundational skills necessary to perform core security functions and pursue an IT security career."
 
-  - title: "COMPTIA CySA+ (In Progress)"
-    date: "2024-10-31"
-    awarder: "COMPTIA"
-    summary: "The CySA+ certification, ovvered by COMPTIA (Computing Technology Industry Association) is a globally recognized certification that demonstrates that an individual has the necessary knowledge and skills to effectively protect and defend systems against cybersecurity threats."
+  # - title: "COMPTIA CySA+ (In Progress)"
+  #   date: "2024-10-31"
+  #   awarder: "COMPTIA"
+  #   summary: "The CySA+ certification, ovvered by COMPTIA (Computing Technology Industry Association) is a globally recognized certification that demonstrates that an individual has the necessary knowledge and skills to effectively protect and defend systems against cybersecurity threats."
 
 # publications:
 #   - name: ""
