@@ -18,7 +18,8 @@ basics:
     # - network: "LinkedIn"
     #   username: "micah cole"
     #   url: "https://www.linkedin.com/in/micah-e-cole/"
-  research_page: /research/
+  pages:
+    research_page: /research/
 
 
 work:
