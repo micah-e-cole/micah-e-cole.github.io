@@ -18,6 +18,8 @@ basics:
     # - network: "LinkedIn"
     #   username: "micah cole"
     #   url: "https://www.linkedin.com/in/micah-e-cole/"
+  research_page: /research/
+
 
 work:
   - company: "Freelance"
@@ -94,10 +96,11 @@ intern:
 
   - organization: "University of Mary Washington"
     position: "Student Research Intern"
-    website: "https://www.slideshare.net/slideshow/research-and-creatitvity-day-poster-29696943/29696943"
+    website: ""
     startDate: "2013-06-01"
     endDate: "2013-08-01"
-    summary: "A Comparative Analysis of the Health of the Ni River and Massaponax Creek in Spotsylvania County"
+    summary: >
+      A Comparative Analysis of the Health of the Ni River and Massaponax Creek in Spotsylvania County [View Research Work]({{ site.baseurl }}{{ site.data.resume.research_page }})
     highlights:
       - "Collected macrobenthic samples along routes of the Ni River and Massaponax Creek. Conducted chemical analysis of water samples. Deduced estimates of fecal coliform bacteria present in waters by taking cultures and growing them in the lab."
     
