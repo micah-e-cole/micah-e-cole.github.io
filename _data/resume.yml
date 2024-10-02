@@ -18,8 +18,6 @@ basics:
     # - network: "LinkedIn"
     #   username: "micah cole"
     #   url: "https://www.linkedin.com/in/micah-e-cole/"
-  pages:
-    research_page: /research/
 
 
 work:
@@ -101,10 +99,9 @@ intern:
     startDate: "2013-06-01"
     endDate: "2013-08-01"
     summary: >
-      A Comparative Analysis of the Health of the Ni River and Massaponax Creek in Spotsylvania County [View Research Work]({{ site.baseurl }}{{ site.data.resume.research_page }})
+      A Comparative Analysis of the Health of the Ni River and Massaponax Creek in Spotsylvania County.
     highlights:
       - "Collected macrobenthic samples along routes of the Ni River and Massaponax Creek. Conducted chemical analysis of water samples. Deduced estimates of fecal coliform bacteria present in waters by taking cultures and growing them in the lab."
-    image: "assets/imag/research_poster.png"
 
 volunteer:
   - organization: "Kids Rank"
@@ -224,12 +221,12 @@ certificates:
   #   awarder: "COMPTIA"
   #   summary: "The CySA+ certification, ovvered by COMPTIA (Computing Technology Industry Association) is a globally recognized certification that demonstrates that an individual has the necessary knowledge and skills to effectively protect and defend systems against cybersecurity threats."
 
-# publications:
-#   - name: ""
-#     publisher: ""
-#     releaseDate: ""
-#     website: ""
-#     summary: ""
+publications:
+  - name: "A Comparative Analysis of the Health of the Ni River and Massaponax Creek in Spotsylvania County."
+    publisher: "Department of Earth and Environmental Sciences, University of Mary Washington"
+    releaseDate: "2013-09-01"
+    website: "https://raw.githubusercontent.com/micah-e-cole/Publication/refs/heads/main/research_poster.png"
+    summary: "Research project monitoring the water quality and overall stream health of several streams within Spotsylvania County, Virginia."
 
 skills:
   - name: "Requirements Gathering"
