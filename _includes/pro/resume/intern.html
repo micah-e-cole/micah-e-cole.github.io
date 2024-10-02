@@ -7,6 +7,11 @@
   </h2>
   {% for i in resume.intern %}
   <section class="no-page-break">
+    {% if i.image %}
+    <div class="intern-image">
+      <img src="{{ i.image | relative_url }}" alt="Image related to {{ i.organization }}">
+    </div>
+    {% endif %}
     <header class="{% unless forloop.first %}mt2{% endunless %}">
       {% if i.startDate.size > 0 %}
         <p class="faded">

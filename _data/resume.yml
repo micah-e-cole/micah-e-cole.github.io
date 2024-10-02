@@ -104,7 +104,8 @@ intern:
       A Comparative Analysis of the Health of the Ni River and Massaponax Creek in Spotsylvania County [View Research Work]({{ site.baseurl }}{{ site.data.resume.research_page }})
     highlights:
       - "Collected macrobenthic samples along routes of the Ni River and Massaponax Creek. Conducted chemical analysis of water samples. Deduced estimates of fecal coliform bacteria present in waters by taking cultures and growing them in the lab."
-    
+    image: "assets/imag/research_poster.png"
+
 volunteer:
   - organization: "Kids Rank"
     position: "Data Technician"
