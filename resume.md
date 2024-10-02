@@ -13,7 +13,7 @@ left_column:
   - education
 #  - awards
   - certificates
- - publications
+  - publications
 #  - references
 right_column:
   - languages
