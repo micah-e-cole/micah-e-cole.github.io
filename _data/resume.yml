@@ -7,7 +7,7 @@ basics:
   # phone: "555-555-5555"
   # website: "https://micah-e-cole.github.io/"
   summary: >
-    Dynamic and results-oriented data analyst with extensive expertise in troubleshooting, error resolution, and comprehensive data management. Skilled in Python, SQL, and Microsoft Excel, I bring a proven record of success in stakeholder engagement and project management. As a proficient communicator with specialized knowledge in web technologies, diagnostics, and user-focused tech solutions, I excel at utilizing analytical skills and advanced reporting tools to enhance operational efficiency and drive strategic decision-making. I am eager to contribute to process optimization and deliver impactful insights within a progressive and growth-focused organization.
+    Detail-oriented information professional with over three years of experience supporting information systems. Proven expertise in data analysis, workflow optimization, and collaborative problem-solving within science and data-driven settings. Adept at implementing system improvements to enhance integrity, operational efficiency, and regulatory compliance.
   location:
     # address: ""
     # postalCode: ""
@@ -29,10 +29,9 @@ work:
     summary: >
       Provider of analyses, consulting, and deliverables for a variety of businesses and operating structures. 
     highlights:
-      - "Provided data templating and organization crucial for visual production team, ensuring accuracy and timely deliverables for a contract with the American Diabetes Association."
-      - "Integrated multiple datasets using Python and MS Excel to categorize and structure data leading to 30% greater efficiency in data organization."
-      - "Conducted requirements gathering for program financial analyses, creating data visualizations and dashboards in MS Excel using pivot tables and charts."
-      - "Routinely performs requirements gathering with stakeholders to ensure deliverables are meeting contract expectations and aligned with the goals of the individual or organization."
+      - "•	Managed and resolved technical support inquiries, ensuring client satisfaction and maintaining seamless service operations."
+      - "•	Coordinated with cross-functional teams to develop data solutions, improving information integration processes by 30%."
+      - "•	Crafted clear and effective technical communications for customer-facing documentation, enhancing user experience."
 
   - company: "Inside Out Inspection Services, LLC"
     position: "Administrative Assistant"
@@ -42,11 +41,9 @@ work:
     summary: >
       Inside Out Inspection Services offered home and building inspections and education to the greater Seattle area and surrounding counties. A small, locally owned business, IOIS had 4 employees during the tenure of this position and received high volumes of customer engagement and requests for services.
     highlights:
-      - "Automated routine tasks and improved data processing utilizing Google Sheets, leading to a 10-20% increase in expense tracking and operational efficiency."
-      - "Collaborated with stakeholders to optimize business-side data collection and retention using Google Suite tools."
-      - "Conducted hardware troubleshooting and optimization, enhancing IT assets."
-      - "Provided end-user support, troubleshooting hardware and software issues, and maintaining a high level of customer satisfaction."
-      - "Documented support requests and resolutions within a spreadsheet dashboard, tracking trends and identifying areas of suggested improvements to report to CRM software vendor."
+      - "•	Streamlined operational communication processes by addressing technical issues and coordinating solutions rapidly."
+      - "•	Improved workflow efficiency by 25%, enabling faster response times and better alignment with customer requirements."
+      - "•	Assisted in facilitating post-issue resolutions and feedback collection to enhance service delivery."
 
   - company: "Freelance"
     position: "Electronics Repair Technician"
@@ -56,9 +53,8 @@ work:
     summary: >
       Performed simple-to-complex electronic repairs and installations on a wide variety of technology: automobile audio, cellphones, laptops, PCs, small electronics, gaming consoles, and power tools.
     highlights:
-      - "Diagnosed and performed troubleshooting of hardware and software issues in personal computers, laptops, and other electronic devices."
-      - "Performed repairs, upgrades, and maintenance on various electronic devices including desktops, laptops, tablets, and smartphones."
-      - "Optimized hardware configurations for Windows, Mac, Linux, Android, and iOS systems to enhance performance and user experience."
+      - "•	Diagnosed and repaired a wide range of technical issues and devices, demonstrating in-depth technical knowledge and problem-solving expertise."
+      - "•	Delivered exceptional customer service, aligning technical solutions with customer needs to promote loyalty and trust."
 
   - company: "The University of Virginia"
     position: "Admissions & Financial Aid Specialist"
@@ -68,10 +64,8 @@ work:
     summary: >
       The School of Architecture at the University of Virginia contains Undergraduate, Graduate, and Doctorate-level programs and concentrations in Architecture, Architectural History, Landscape Architecture, and Urban Planning.
     highlights:
-      - "Created reports enabling better visualization of fiscal allocation and analysis of student demographics, offering valuable insights for admissions and budgeting decisions."
-      - "Spearheaded data filtering methods, reducing quarterly expense reconciliation time by up to 75%, resulting in more efficient processes."
-      - "Advised staff and faculty on use of complex datasets and provided support in incorporating new features, ensuring optimal utilization of reports while maintaining FERPA compliance."
-      - "Acted as a liaison between students, staff, and faculty and the larger University Financial Aid office, by communicating student needs and translating technical requirements back to students, staff, and faculty. "
+      - "•	Managed critical protected data and facilitated communication across departments, ensuring accuracy and confidentiality."
+      - "•	Engaged in detailed process analysis, driving improvements and efficiency in institutional record management and strategic decision making."
 
   # - company: "Self-Employed"
   #   position: "Private Contractor"
