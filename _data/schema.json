@@ -129,7 +129,13 @@
             "$ref": "#/definitions/iso8601"
           },
           "endDate": {
-            "$ref": "#/definitions/iso8601"
+            "oneOf": [
+              { "$ref": "#/definitions/iso8601" },
+              {
+                "type": "string",
+                "enum": ["Present"]
+              }
+            ]
           },
           "summary": {
             "type": "string",
