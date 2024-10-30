@@ -7,7 +7,7 @@ basics:
   # phone: "555-555-5555"
   # website: "https://micah-e-cole.github.io/"
   summary: >
-    Detail-oriented information professional with over three years of experience supporting information systems. Proven expertise in data analysis, workflow optimization, and collaborative problem-solving within science and data-driven settings. Adept at implementing system improvements to enhance integrity, operational efficiency, and regulatory compliance.
+    Detail-oriented IT professional with over three years of experience supporting information systems. Proven expertise in data analysis, workflow optimization, and collaborative problem-solving within science and data-driven settings. Adept at implementing system improvements to enhance integrity, operational efficiency, and regulatory compliance.
   location:
     # address: ""
     # postalCode: ""
@@ -22,7 +22,7 @@ basics:
 
 work:
   - company: "Freelance"
-    position: "Data Technician"
+    position: "IT Support Technician"
     website: ""
     startDate: "2023-09-01"
     endDate: "Present"
@@ -31,8 +31,9 @@ work:
     highlights:
       - "•	Managed and resolved technical support inquiries, ensuring client satisfaction and maintaining seamless service operations."
       - "•	Coordinated with cross-functional teams to develop data solutions, improving information integration processes by 30%."
-      - "•	Crafted clear and effective technical communications for customer-facing documentation, enhancing user experience."
       - "•	Developed adaptable solutions for diverse data-related tasks, demonstrating flexibility and problem-solving capabilities."
+      - "•	Provide remote IT support, effectively resolving technical issues for clients through calls and emails while ensuring high levels of customer satisfaction."
+      - "•	Document, categorize, and prioritize support requests, following escalation protocols to ensure timely resolution and follow-up."
 
   - company: "Inside Out Inspection Services, LLC"
     position: "Administrative Assistant"
@@ -58,7 +59,8 @@ work:
       - "•	Delivered exceptional customer service, aligning technical solutions with customer needs to promote loyalty and trust."
       - "•	Elevated service delivery through detailed technical assessments and repairs, ensuring functionality and safety."
       - "•	Diagnosed and resolved technical issues for networks, computers, and peripherals, consistently delivering high levels of customer satisfaction."
-
+      - "•	Conduct technical assessments and repairs on hardware systems, ensuring optimal functionality and security for clients."
+  
   - company: "The University of Virginia"
     position: "Admissions & Financial Aid Specialist"
     website: "https://www.arch.virginia.edu/"
@@ -140,34 +142,33 @@ education:
     endDate: "2013-08-01"
     gpa: ""
     courses:
-      - "GISC 200 - Intro to GIS"
+      - "GISC 200 - Geographic Information Systems (GIS)"
       - "EESC 307 - Soil Science"
       - "EESC 323 - Aquatic Ecology"
       - "CHEM 331 - Environmental Chemistry"
       - "PHIL 330 - Environmental Ethics"
       - "EESC 330 - Environmental Regulations compliance."
-      - "BIOL 427 - Ornithology"
       - "EESC 491 - Independent Research Study: Aquatic Ecology of Streams with Lab"
   
   - institution: "Germanna Community College"
     area: "Science"
-    studyType: "Associate of Arts and Sciences"
+    studyType: "Associates Degree"
     startDate: "2006-05-26"
     endDate: "2010-05-11"
     gpa: ""
-    courses:
-        - "BIO 101 - General Biology 1"
-        - "BIO 102 - General Biology 2"
-        - "ECO 201 - Principles of Economics 1"
-        - "ECO 202 - Principles of Economics 2"
-        - "ENG 233 - The Bible as Literature"
-        - "PLS 241 - International Relations"
-        - "ENG 253 - African-American Literature"
-        - "CHM 111 - Chemistry 1"
-        - "CHM 112 - Chemistry 2"
-        - "SPA 201 - Intermediate Spanish 1"
-        - "SPA 202 - Intermediate Spanish 2"
-        - "MTH 271 - Applied Calculus"
+    # courses:
+    #     - "BIO 101 - General Biology 1"
+    #     - "BIO 102 - General Biology 2"
+    #     - "ECO 201 - Principles of Economics 1"
+    #     - "ECO 202 - Principles of Economics 2"
+    #     - "ENG 233 - The Bible as Literature"
+    #     - "PLS 241 - International Relations"
+    #     - "ENG 253 - African-American Literature"
+    #     - "CHM 111 - Chemistry 1"
+    #     - "CHM 112 - Chemistry 2"
+    #     - "SPA 201 - Intermediate Spanish 1"
+    #     - "SPA 202 - Intermediate Spanish 2"
+    #     - "MTH 271 - Applied Calculus"
 
 awards:
   - title: "President's List"
@@ -226,6 +227,15 @@ publications:
     summary: "Research project monitoring the water quality and overall stream health of several streams within Spotsylvania County, Virginia."
 
 skills:
+  - name: "IT Support"
+    level: "Professional"
+    keywords:
+      - "Technical Skills"
+      - "Software Proficiency"
+      - "Documentation Skills"
+      - "Operating Systems Knowledge"
+      - "Basic Scripting"
+  
   - name: "Requirements Gathering"
     level: "Professional"
     keywords:
@@ -248,10 +258,8 @@ skills:
     level: "Professional"
     keywords:
       - "CSS/SCSS"
-      - "Git"
       - "HTML"
       - "JavaScript"
-      - "Node"
 
   - name: "Programming Languages"
     level: "Professional"
@@ -281,6 +289,7 @@ skills:
       - "Swift"
       - "React"
       - "ReactNative"
+      - "Xcode"
 
 languages:
   - language: "English"
@@ -300,7 +309,7 @@ hobbies:
       - "Cooking"
       - "Electronics repair"
       - "CAD"
-      - "Building Furniture"
+      - "Design"
 # references:
 #   - name: "Erlich Bachman"
 #     reference: >
