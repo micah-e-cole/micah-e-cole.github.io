@@ -1,6 +1,6 @@
 ---
 layout: project
-title: 'UX/UI Design'
+title: 'UX/UI'
 caption: User Experience/User Interface
 date: '25-06-2023'
 image: 
