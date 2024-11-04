@@ -11,6 +11,7 @@ left_column:
   - work
   - intern
   - education
+  - volunteer
 #  - awards
   - certificates
   - publications
