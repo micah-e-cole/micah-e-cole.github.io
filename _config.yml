@@ -57,22 +57,12 @@ menu:
         url: /projects/ux-ui/
   - title: Résumé
     url: /resume/
-  # - title:             Contact
-  #   url:               /contact/
-  # - title:             Portfolio
-  #   url:               /portfolio/
-  # - title:             Documentation
-  #  url:               /docs/
-      # - title: Design
-      #   url: /projects/product-design/
 # Add links to the footer.
 legal:
   - title:             LICENSE
     url:               /LICENSE/
   - title:             NOTICE
     url:               /NOTICE/
-  # - title:             CHANGELOG
-  #   url:               /CHANGELOG/
 
 copyright:             © 2024. All rights reserved.
 permalink:             /blog/:categories/:year-:month-:day-:title/
@@ -126,19 +116,16 @@ defaults:
       sitemap:         false
 
   - scope:
-      path:             _projects/
       type:             projects
     values:             
       seo:
         type:          WebPage
   - scope:
-      path:            _featured_categories/
       type:            featured_categories
     values:
       seo:
         type:          WebPage
-  - scope:
-      path:             
+  - scope:            
       type:            featured_tags
     values:
       seo:
