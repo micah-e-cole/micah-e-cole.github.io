@@ -24,6 +24,7 @@ gem "whittle"
 gem "exifr"
 gem "listen"
 gem "commonmarker", "~> 0.23.9"
+gem "jekyll-theme-hydejack", git: "https://github.com/hydecorp/hydejack-pro", tag: "pro/v9.2.1"
 
 
 group :jekyll_plugins do
