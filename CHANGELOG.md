@@ -600,7 +600,7 @@ Dec 18 2017
   # file: `resume.md`
   left_column:
     - work
-    - volunteer
+    <!-- - volunteer -->
     - education
     - awards
     - publications
@@ -609,6 +609,7 @@ Dec 18 2017
     - languages
     - skills
     - interests
+    - volunteer
   ```
 
 

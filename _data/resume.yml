@@ -97,13 +97,17 @@ volunteer:
     startDate: "2024-04-18"
     endDate: "2024-07-20"
     summary: "Provided consulting for organizational data analysis and file management for the Executive Director of 501c(3) service-based nonprofit which provides social and emotional enrichment for children of military parents."
-  
+    highlights: 
+    - "Highlights"
+
   - organization: "Mary Washington Hospital"
     position: "Patient Services Volunteer"
     website: ""
     startDate: "2003-06-01"
     endDate: "2003-06-30"
     summary: "Supported the nurse manager and administrative team by managing front desk calls in post-surgical and maternity units."
+    highlights: 
+    - "Highlights"
 
 education:
   - institution: "Lake Washington Institute of Technology/Western Governors University"
