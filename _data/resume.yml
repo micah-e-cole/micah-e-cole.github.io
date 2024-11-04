@@ -1,23 +1,10 @@
 
 basics:
   name: "Micah Cole"
-  # label: "Freelance"
   picture: "assets/img/profileNoBackground.png"
-  # email: "micah@example.com"
-  # phone: "555-555-5555"
-  # website: "https://micah-e-cole.github.io/"
   summary: >
     Detail-oriented IT professional with over three years of experience supporting information systems. Proven expertise in data analysis, workflow optimization, and collaborative problem-solving within science and data-driven settings. Adept at implementing system improvements to enhance integrity, operational efficiency, and regulatory compliance.
   location:
-    # address: ""
-    # postalCode: ""
-    # city: "Seattle"
-    # countryCode: "US"
-    # region: "WA"
-  # profiles:
-    # - network: "LinkedIn"
-    #   username: "micah cole"
-    #   url: "https://www.linkedin.com/in/micah-e-cole/"
 
 work:
   - company: "Freelance"
@@ -115,8 +102,6 @@ education:
     startDate: "2012-01-01"
     endDate: "2013-08-01"
     gpa: ""
-    courses:
-      - ""
   
   - institution: "Germanna Community College"
     area: "Science"
@@ -124,8 +109,6 @@ education:
     startDate: "2006-05-26"
     endDate: "2010-05-11"
     gpa: ""
-    courses:
-        - ""
 
 awards:
   - title: "President's List"
