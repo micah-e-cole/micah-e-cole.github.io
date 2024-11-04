@@ -12,7 +12,6 @@ left_column:
   - intern
   - education
   - volunteer
-#  - awards
   - certificates
   - publications
 #  - references
