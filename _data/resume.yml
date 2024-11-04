@@ -19,7 +19,6 @@ basics:
     #   username: "micah cole"
     #   url: "https://www.linkedin.com/in/micah-e-cole/"
 
-
 work:
   - company: "Freelance"
     position: "IT Support Technician"
@@ -72,25 +71,24 @@ work:
       - "•	Managed critical protected data and facilitated communication across departments, ensuring accuracy and confidentiality."
       - "•	Engaged in detailed process analysis, driving improvements and efficiency in institutional record management and strategic decision making."
       - "•	Managed communications and documentation processes (phones, emails, in-person, and physical mail), ensuring adherence to institutional policies while improving the user experience."
+# intern:
+#   - organization: "University of Mary Washington"
+#     position: "Work Study | Financial Aid"
+#     website: ""
+#     startDate: "2012-01-01"
+#     endDate: "2013-08-11"
+#     summary: "Assisted in managing and analyzing student financial aid data, ensuring accurate and up-to-date records in line with federal, state, and institutional regulations."
+#     highlights: "Learned and utilized the Banner Student Information System (SIS) and became fluent in the front-end utilization and code search process to aid students and coworkers in answering questions regarding their federal financial aid."
 
-intern:
-  - organization: "University of Mary Washington"
-    position: "Work Study | Financial Aid"
-    website: ""
-    startDate: "2012-01-01"
-    endDate: "2013-08-11"
-    summary: "Assisted in managing and analyzing student financial aid data, ensuring accurate and up-to-date records in line with federal, state, and institutional regulations."
-    highlights: "Learned and utilized the Banner Student Information System (SIS) and became fluent in the front-end utilization and code search process to aid students and coworkers in answering questions regarding their federal financial aid."
-
-  - organization: "University of Mary Washington"
-    position: "Student Research Intern"
-    website: ""
-    startDate: "2013-06-01"
-    endDate: "2013-08-01"
-    summary: >
-      A Comparative Analysis of the Health of the Ni River and Massaponax Creek in Spotsylvania County.
-    highlights:
-      - "Collected macrobenthic samples along routes of the Ni River and Massaponax Creek. Conducted chemical analysis of water samples. Deduced estimates of fecal coliform bacteria present in waters by taking cultures and growing them in the lab."
+#   - organization: "University of Mary Washington"
+#     position: "Student Research Intern"
+#     website: ""
+#     startDate: "2013-06-01"
+#     endDate: "2013-08-01"
+#     summary: >
+#       A Comparative Analysis of the Health of the Ni River and Massaponax Creek in Spotsylvania County.
+#     highlights:
+#       - "Collected macrobenthic samples along routes of the Ni River and Massaponax Creek. Conducted chemical analysis of water samples. Deduced estimates of fecal coliform bacteria present in waters by taking cultures and growing them in the lab."
 
 volunteer:
   - organization: "Kids Rank"
