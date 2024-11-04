@@ -124,17 +124,21 @@ defaults:
     values:
       layout:          plain
       sitemap:         false
+
   - scope:
+      path:             _projects/
       type:             projects
-    values:
+    values:             
       seo:
         type:          WebPage
   - scope:
+      path:            _featured_categories/
       type:            featured_categories
     values:
       seo:
         type:          WebPage
   - scope:
+      path:             
       type:            featured_tags
     values:
       seo:
