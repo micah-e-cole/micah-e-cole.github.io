@@ -9,9 +9,10 @@ order: 2
 hide_description: true
 left_column:
   - work
-  - intern
-  - education
   - volunteer
+  # - intern
+  - education
+  - awards
   - certificates
   - publications
 #  - references
