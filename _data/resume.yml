@@ -4,7 +4,6 @@ basics:
   picture: "assets/img/profileNoBackground.png"
   summary: >
     Detail-oriented IT professional with over three years of experience supporting information systems. Proven expertise in data analysis, workflow optimization, and collaborative problem-solving within science and data-driven settings. Adept at implementing system improvements to enhance integrity, operational efficiency, and regulatory compliance.
-  location:
 
 work:
   - company: "Freelance"
@@ -58,7 +57,6 @@ work:
       - "•	Managed critical protected data and facilitated communication across departments, ensuring accuracy and confidentiality."
       - "•	Engaged in detailed process analysis, driving improvements and efficiency in institutional record management and strategic decision making."
       - "•	Managed communications and documentation processes (phones, emails, in-person, and physical mail), ensuring adherence to institutional policies while improving the user experience."
-
 volunteer:
   - organization: "Kids Rank"
     position: "Data Technician"
@@ -66,8 +64,6 @@ volunteer:
     startDate: "2024-04-18"
     endDate: "2024-07-20"
     summary: "Provided consulting for organizational data analysis and file management for the Executive Director of 501c(3) service-based nonprofit which provides social and emotional enrichment for children of military parents."
-    highlights: 
-      - ""
 
   - organization: "Mary Washington Hospital"
     position: "Patient Services Volunteer"
@@ -75,8 +71,6 @@ volunteer:
     startDate: "2003-06-01"
     endDate: "2003-06-30"
     summary: "Supported the nurse manager and administrative team by managing front desk calls in post-surgical and maternity units."
-    highlights: 
-      - ""
 
 education:
   - institution: "Western Governors University"
