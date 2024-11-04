@@ -1,103 +1,242 @@
-# If you have a `resume.json` file, copy it into `_data` and delete this file.
-# If you don't have a JSON Resume you can just edit this YAML file instead.
-# See also: <https://jsonresume.org/>.
+
 basics:
-  name: "Richard Hendricks"
-  label: "Programmer"
-  picture: "https://via.placeholder.com/240x240"
-  email: ""
-  phone: "(912) 555-4321"
-  website: "https://piedpiper.com"
+  name: "Micah Cole"
+  picture: "assets/img/profileNoBackground.png"
   summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
-    Open `_data/resume.yml` to edit this text.
-  location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
-    countryCode: "US"
-    region: "California"
-  profiles:
-    - network: "Twitter"
-      username: "RHendricksCEO"
-      url: ""
-    - network: "LinkedIn"
-      username: "Richard Hendricks"
-      url: ""
+    Detail-oriented IT professional with over three years of experience supporting information systems. Proven expertise in data analysis, workflow optimization, and collaborative problem-solving within science and data-driven settings. Adept at implementing system improvements to enhance integrity, operational efficiency, and regulatory compliance.
+
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
-    endDate: ""
+  - company: "Freelance"
+    position: "IT Support Technician"
+    website: ""
+    startDate: "2023-09-01"
+    endDate: "2024-12-01"
     summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+      Provider of analyses, consulting, and deliverables for a variety of businesses and operating structures. 
     highlights:
-      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
+      - "•	Managed and resolved technical support inquiries, ensuring client satisfaction and maintaining seamless service operations."
+      - "•	Coordinated with cross-functional teams to develop data solutions, improving information integration processes by 30%."
+      - "•	Developed adaptable solutions for diverse data-related tasks, demonstrating flexibility and problem-solving capabilities."
+      - "•	Provide remote IT support, effectively resolving technical issues for clients through calls and emails while ensuring high levels of customer satisfaction."
+      - "•	Document, categorize, and prioritize support requests, following escalation protocols to ensure timely resolution and follow-up."
+
+  - company: "Freelance"
+    position: "Electronics Repair Technician"
+    website: ""
+    startDate: "2016-06-01"
+    endDate: "2024-12-01"
+    summary: >
+      Performed simple-to-complex electronic repairs and installations on a wide variety of technology: automobile audio, cellphones, laptops, PCs, small electronics, gaming consoles, and power tools.
+    highlights:
+      - "•	Diagnosed and repaired a wide range of technical issues and devices, demonstrating in-depth technical knowledge and problem-solving expertise."
+      - "•	Delivered exceptional customer service, aligning technical solutions with customer needs to promote loyalty and trust."
+      - "•	Elevated service delivery through detailed technical assessments and repairs, ensuring functionality and safety."
+      - "•	Diagnosed and resolved technical issues for networks, computers, and peripherals, consistently delivering high levels of customer satisfaction."
+      - "•	Conduct technical assessments and repairs on hardware systems, ensuring optimal functionality and security for clients."
+
+  - company: "Inside Out Inspection Services, LLC"
+    position: "Administrative Specialist"
+    website: "https://insideoutbi.com/"
+    startDate: "2019-06-01"
+    endDate: "2020-06-01"
+    summary: >
+      Inside Out Inspection Services offered home and building inspections and education to the greater Seattle area and surrounding counties. A small, locally owned business, IOIS had 4 employees during the tenure of this position and received high volumes of customer engagement and requests for services.
+    highlights:
+      - "•	Improved service workflows by 25% through optimized scheduling and coordination, ensuring seamless customer experiences and high satisfaction rates."
+      - "•	Answered phones, emails, and handled incoming and outgoing mail for business operations."
+      - "•	Utilized exceptional communication skills to manage and prioritize service requests, providing timely follow-up and resolution. "
+  
+  - company: "The University of Virginia"
+    position: "Admissions & Financial Aid Specialist"
+    website: "https://www.arch.virginia.edu/"
+    startDate: "2014-01-01"
+    endDate: "2016-05-01"
+    summary: >
+      The School of Architecture at the University of Virginia contains Undergraduate, Graduate, and Doctorate-level programs and concentrations in Architecture, Architectural History, Landscape Architecture, and Urban Planning.
+    highlights:
+      - "•	Managed critical protected data and facilitated communication across departments, ensuring accuracy and confidentiality."
+      - "•	Engaged in detailed process analysis, driving improvements and efficiency in institutional record management and strategic decision making."
+      - "•	Managed communications and documentation processes (phones, emails, in-person, and physical mail), ensuring adherence to institutional policies while improving the user experience."
 volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
-    highlights:
-      - "Awarded 'Teacher of the Month'"
+  - organization: "Kids Rank"
+    position: "Data Technician"
+    website: ""
+    startDate: "2024-04-18"
+    endDate: "2024-10-20"
+    summary: "Provided consulting for organizational data analysis and file management for the Executive Director of 501c(3) service-based nonprofit which provides social and emotional enrichment for children of military parents."
+
+  - organization: "Mary Washington Hospital"
+    position: "Patient Services Volunteer"
+    website: ""
+    startDate: "2003-06-01"
+    endDate: "2003-06-30"
+    summary: "Supported the nurse manager and administrative team by managing front desk calls in post-surgical and maternity units."
+
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
+  - institution: "Western Governors University"
+    area: "Software Development/Engineering"
     studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
+    startDate: "2021-09-01"
+    endDate: "2023-11-01"
+    gpa: ""
     courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
+      - "CSD 122 - JavaScript and jQuery"
+      - "CSD 322 - Computer and Network Architecture"
+      - "CSD 331 - Database Modeling and Design"
+      - "CSD 323 - Data Analytics"
+      - "MATH 220 - Linear Algebra"
+      - "C 484 - Organizational Behavior and Leadership"
+      - "C 172 - Network and Security Foundations"
+      - "C 773 - User Interface Design"
+      - "C 777 - Web Development Applications"
+
+  - institution: "University of Mary Washington"
+    area: "Environmental Science"
+    studyType: "Bachelor"
+    startDate: "2012-01-01"
+    endDate: "2013-08-01"
+    gpa: ""
+  
+  - institution: "Germanna Community College"
+    area: "Science"
+    studyType: "Associates Degree"
+    startDate: "2006-05-26"
+    endDate: "2010-05-11"
+    gpa: ""
+
 awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
+  - title: "President's List"
+    date: "2007-05-15"
+    awarder: "Germanna Community College"
+    summary: "Awarded President's List for the Spring 0f 2007, Spring of 2008, Fall of 2008, and Spring of 2009"
+
+  - title: "Dean's List"
+    date: "2007-12-15"
+    awarder: "Germanna Community College"
+    summary: "Awarded Dean's List for the Fall of 2007, Fall of 2009, and Spring of 2010"
+  
+  - title: "Phi theta Kappa (PTK)"
+    date: "2007-12-15"
+    awarder: "Phi Theta Kappa"
+    summary: "Awarded PTK membership for academic performance."
+
+
+certificates:
+  
+  - title: "COMPTIA A+"
+    date: "2024-08-29"
+    awarder: "COMPTIA"
+    summary: "A+ Certification is a professional certification provided by CompTIA (the Computing Technology Industry Association). It is designed to validate the foundational skills and knowledge required for entry-level IT professionals."
+
+  - title: "Healthcare IT Support"
+    date: "2024-03-27"
+    awarder: "Johns Hopkins University on Coursera"
+    summary: "Specialization covers the role of IT support staff in healthcare, health information technology fundamentals, operations and patient safety for healthcare IT staff, and healthcare data security, privacy, and compliance."
+
+  - title: "ITIL 4 Foundation Certificate IT Service Management"
+    date: "2023-08-11"
+    awarder: "PeopleCert"
+    summary: "ITIL is a set of best practices for IT service management (ITSM) that helps organizations align their IT services with the needs of their business. The ITIL 4 Foundation certification provides a comprehensive introduction to the ITIL framework and focuses on the key concepts, terminology, and principles of ITIL 4."
+
+  - title: "Python Programming"
+    date: "2019-06-01"
+    awarder: "University of Washington Professional & Continuing Education"
+    summary: "This three-course certificate program, provides a thorough understanding of the power of Python libraries as well as standard programming styles and idioms. It explores different aspects of network-based programming with Python, including developing data systems and web applications, and larger systems development issues and advanced topics. It covers unit testing, coding style and Python PEP8 compliance to learn the best practices for writing Python code."
+
+
 publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+  - name: "A Comparative Analysis of the Health of the Ni River and Massaponax Creek in Spotsylvania County."
+    publisher: "Department of Earth and Environmental Sciences, University of Mary Washington"
+    releaseDate: "2013-09-01"
+    website: "https://raw.githubusercontent.com/micah-e-cole/Publication/refs/heads/main/research_poster.png"
+    summary: "Research project monitoring the water quality and overall stream health of several streams within Spotsylvania County, Virginia."
+
 skills:
-  - name: "Web Development"
-    level: "Master"
+  - name: "IT Support"
+    level: "Professional"
     keywords:
+      - "Technical Skills"
+      - "Software Proficiency"
+      - "Documentation Skills"
+      - "Operating Systems Knowledge"
+      - "Basic Scripting"
+  
+  - name: "Requirements Gathering"
+    level: "Professional"
+    keywords:
+      - "Interpersonal Skills"
+      - "Facilitation Skills"
+      - "Documentation Skills"
+      - "Project Management Skills"
+      - "Change Management"
+
+  - name: "Data Analysis"
+    level: "Professional"
+    keywords:
+      - "Analytical Thinking"
+      - "Attention to Detail"
+      - "Technical Proficiency"
+      - "Business Acumen"
+      - "Communication Skills"
+
+  - name: "Front End Development"
+    level: "Professional"
+    keywords:
+      - "CSS/SCSS"
       - "HTML"
-      - "CSS"
-      - "Javascript"
-  - name: "Compression"
-    level: "Master"
+      - "JavaScript"
+
+  - name: "Programming Languages"
+    level: "Professional"
     keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
+      - "Java"
+      - "Python"
+
+  - name: "Databases and Visualization"
+    level: "Professional"
+    keywords:
+      - "Excel/VBA"
+      - "Python (pandas)"
+      - "SQL/SQLite/MySQL"
+
+  - name: "Webscraping"
+    level: "Intermediate"
+    keywords:
+      - "Python"
+      - "JavaScript"
+      - "Selenium"
+      - "BeautifulSoup"
+      - "Puppeteer"
+
+  - name: "App Development"
+    level: "Intermediate"
+    keywords:
+      - "Swift"
+      - "React"
+      - "ReactNative"
+      - "Xcode"
+
 languages:
   - language: "English"
     fluency: "Native speaker"
+
 interests:
-  - name: "Wildlife"
+  - name: "Design UX/UI"
     keywords:
-      - "Ferrets"
-      - "Unicorns"
-references:
-  - name: "Erlich Bachman"
-    reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+      - "Accessibility"
+      - "Inclusivity"
+
+hobbies:
+  - name: "MISC"
+    keywords:
+      - "Woodworking"
+      - "Tool restoration"
+      - "Cooking"
+      - "Electronics repair"
+      - "CAD"
+      - "Design"
+# references:
+#   - name: "Erlich Bachman"
+#     reference: >
+#       It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#       Company proved that he will be a valuable addition to any company.
