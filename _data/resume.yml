@@ -71,24 +71,6 @@ work:
       - "•	Managed critical protected data and facilitated communication across departments, ensuring accuracy and confidentiality."
       - "•	Engaged in detailed process analysis, driving improvements and efficiency in institutional record management and strategic decision making."
       - "•	Managed communications and documentation processes (phones, emails, in-person, and physical mail), ensuring adherence to institutional policies while improving the user experience."
-# intern:
-#   - organization: "University of Mary Washington"
-#     position: "Work Study | Financial Aid"
-#     website: ""
-#     startDate: "2012-01-01"
-#     endDate: "2013-08-11"
-#     summary: "Assisted in managing and analyzing student financial aid data, ensuring accurate and up-to-date records in line with federal, state, and institutional regulations."
-#     highlights: "Learned and utilized the Banner Student Information System (SIS) and became fluent in the front-end utilization and code search process to aid students and coworkers in answering questions regarding their federal financial aid."
-
-#   - organization: "University of Mary Washington"
-#     position: "Student Research Intern"
-#     website: ""
-#     startDate: "2013-06-01"
-#     endDate: "2013-08-01"
-#     summary: >
-#       A Comparative Analysis of the Health of the Ni River and Massaponax Creek in Spotsylvania County.
-#     highlights:
-#       - "Collected macrobenthic samples along routes of the Ni River and Massaponax Creek. Conducted chemical analysis of water samples. Deduced estimates of fecal coliform bacteria present in waters by taking cultures and growing them in the lab."
 
 volunteer:
   - organization: "Kids Rank"
@@ -98,7 +80,7 @@ volunteer:
     endDate: "2024-07-20"
     summary: "Provided consulting for organizational data analysis and file management for the Executive Director of 501c(3) service-based nonprofit which provides social and emotional enrichment for children of military parents."
     highlights: 
-      - "Highlights"
+      - ""
 
   - organization: "Mary Washington Hospital"
     position: "Patient Services Volunteer"
@@ -107,10 +89,10 @@ volunteer:
     endDate: "2003-06-30"
     summary: "Supported the nurse manager and administrative team by managing front desk calls in post-surgical and maternity units."
     highlights: 
-      - "Highlights"
+      - ""
 
 education:
-  - institution: "Lake Washington Institute of Technology/Western Governors University"
+  - institution: "Western Governors University"
     area: "Software Development/Engineering"
     studyType: "Bachelor"
     startDate: "2021-09-01"
@@ -134,13 +116,7 @@ education:
     endDate: "2013-08-01"
     gpa: ""
     courses:
-      - "GISC 200 - Geographic Information Systems (GIS)"
-      - "EESC 307 - Soil Science"
-      - "EESC 323 - Aquatic Ecology"
-      - "CHEM 331 - Environmental Chemistry"
-      - "PHIL 330 - Environmental Ethics"
-      - "EESC 330 - Environmental Regulations compliance."
-      - "EESC 491 - Independent Research Study: Aquatic Ecology of Streams with Lab"
+      - ""
   
   - institution: "Germanna Community College"
     area: "Science"
@@ -148,19 +124,8 @@ education:
     startDate: "2006-05-26"
     endDate: "2010-05-11"
     gpa: ""
-    # courses:
-    #     - "BIO 101 - General Biology 1"
-    #     - "BIO 102 - General Biology 2"
-    #     - "ECO 201 - Principles of Economics 1"
-    #     - "ECO 202 - Principles of Economics 2"
-    #     - "ENG 233 - The Bible as Literature"
-    #     - "PLS 241 - International Relations"
-    #     - "ENG 253 - African-American Literature"
-    #     - "CHM 111 - Chemistry 1"
-    #     - "CHM 112 - Chemistry 2"
-    #     - "SPA 201 - Intermediate Spanish 1"
-    #     - "SPA 202 - Intermediate Spanish 2"
-    #     - "MTH 271 - Applied Calculus"
+    courses:
+        - ""
 
 awards:
   - title: "President's List"
@@ -201,15 +166,6 @@ certificates:
     awarder: "University of Washington Professional & Continuing Education"
     summary: "This three-course certificate program, provides a thorough understanding of the power of Python libraries as well as standard programming styles and idioms. It explores different aspects of network-based programming with Python, including developing data systems and web applications, and larger systems development issues and advanced topics. It covers unit testing, coding style and Python PEP8 compliance to learn the best practices for writing Python code."
 
-  # - title: "COMPTIA Security+ (In Progress)"
-  #   date: "2024-09-30"
-  #   awarder: "COMPTIA"
-  #   summary: "The Security+ certification, offered by CompTIA (Computing Technology Industry Association), is a globally recognized certification that validates the foundational skills necessary to perform core security functions and pursue an IT security career."
-
-  # - title: "COMPTIA CySA+ (In Progress)"
-  #   date: "2024-10-31"
-  #   awarder: "COMPTIA"
-  #   summary: "The CySA+ certification, ovvered by COMPTIA (Computing Technology Industry Association) is a globally recognized certification that demonstrates that an individual has the necessary knowledge and skills to effectively protect and defend systems against cybersecurity threats."
 
 publications:
   - name: "A Comparative Analysis of the Health of the Ni River and Massaponax Creek in Spotsylvania County."
