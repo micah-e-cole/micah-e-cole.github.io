@@ -23,4 +23,4 @@ I encountered numerous advertisements for a specific bed frame online and while 
 
 After researching pictures, videos, and forums where other carpenters discussed their own thoughts/designs for this project, I drew up this design according to the size specifications that would fit a Queen-size mattress. 
 
-While I have yet to build this project in the shop, I am very pleased with how it turned out and hope it can prove useful to others who may be interested in building their own. The files (the Sketchup file and cut list spreadsheet) are avaailable on my [GitHub](https://github.com/micah-e-cole/Bed_Frame).
+While I have yet to build this project in the shop, I am very pleased with how it turned out and hope it can prove useful to others who may be interested in building their own. The files (the Sketchup file and cut list spreadsheet) are avaailable on my [GitHub](https://github.com/micah-e-cole/Bed_Frame){:target="_blank"}.
