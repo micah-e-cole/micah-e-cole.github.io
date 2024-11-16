@@ -39,14 +39,14 @@ I researched the best wood for the project and decided to use Alder for several 
 
 For all coloring - the main panel stain as well as the gradient on the soundwave - I used various combinations of MIXOL® diluted using denatured alcohol.
 
-I was able to capture the audio and isolate the particular sounds needed using the free, open-source audio software, [Audacity®](https://www.audacityteam.org/).
+I was able to capture the audio and isolate the particular sounds needed using the free, open-source audio software, [Audacity®](https://www.audacityteam.org/){:target="_blank"}.
 
 <figure>
   <img src="{{site.url}}/image/carpentry/../../../../images/carpentry/soundwave600px.jpg" alt="Image depicts the soundwaves being isolated for use in the design of the artpiece."/>
   <figcaption> This is the visual depiction of the soundwave.</figcaption>
 </figure>
 
-With the sound isolated, I then used [GIMP](https://www.gimp.org/) (GNU Image Manupulation Program) to take a visual snapshot of the soundwave that I could use as a template for the finished product (exporting the file as a .PNG file). My local office supply retailer had large-scale printing abilities and was able to print the file out at the needed overall dimensions (scaled up for a 3'x 6' final size).
+With the sound isolated, I then used [GIMP](https://www.gimp.org/){:target="_blank"} (GNU Image Manupulation Program) to take a visual snapshot of the soundwave that I could use as a template for the finished product (exporting the file as a .PNG file). My local office supply retailer had large-scale printing abilities and was able to print the file out at the needed overall dimensions (scaled up for a 3'x 6' final size).
 
 In order to cut the thin strips needed to create the soundwave, a zero-clearance insert for the table saw was needed (one was not available that fit my model of saw, so I built one using a 1/2" piece of phenolic resin material and a router).
 
