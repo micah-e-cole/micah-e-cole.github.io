@@ -10,7 +10,7 @@ image:
   srcset: 
     2848w: /assets/img/projectsImages/design/BF_View1_100x.jpg
     2136w: /assets/img/projectsImages/design/BF_View1_10x.jpg
-    1424w:  /assets/img/projectsImages/design/BF_View_15x.jpg
+    1424w:  /assets/img/projectsImages/design/BF_View1_15x.jpg
     712w:  /assets/img/projectsImages/design/BF_View1_25x.jpg
     427w: /assets/img/projectsImages/design/BF_View1_50x.jpg
     285w: /assets/img/projectsImages/design/BF_View1_75x.jpg
