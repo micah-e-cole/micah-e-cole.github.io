@@ -4,16 +4,16 @@ title: 'Design'
 caption: Product Design
 date: '30-10-2024'
 image: 
-  path: /assets/img/projectsImages/design/BF_View1.png
+  path: /assets/img/projectsImages/design/BF_View1_100x.jpg
   alt: 'Design Projects'
   caption: 'Design Projects'
   srcset: 
-    2848w: /assets/img/projectsImages/design/BF_View1.png
-    2136w: /assets/img/projectsImages/design/BF_View1_10x.jpg
-    1424w:  /assets/img/projectsImages/design/BF_View1_15x.jpg
+    2848w: /assets/img/projectsImages/design/BF_View1_100x.jpg
+    2136w: /assets/img/projectsImages/design/BF_View1_75x.jpg
+    1424w:  /assets/img/projectsImages/design/BF_View1_50x.jpg
     712w:  /assets/img/projectsImages/design/BF_View1_25x.jpg
-    427w: /assets/img/projectsImages/design/BF_View1_50x.jpg
-    285w: /assets/img/projectsImages/design/BF_View1_75x.jpg
+    427w: /assets/img/projectsImages/design/BF_View1_15x.jpg
+    285w: /assets/img/projectsImages/design/BF_View1_10x.jpg
 ---
 ### Furniture Design
 
