@@ -4,7 +4,7 @@ title: 'Design'
 caption: Product Design
 date: '30-10-2024'
 image: 
-  path: /assets/img/projectsImages/design/BF_View1_100x.jpg
+  path: /assets/img/projectsImages/design/BF_View1.png
   alt: 'Design Projects'
   caption: 'Design Projects'
   srcset: 
