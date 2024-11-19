@@ -23,6 +23,8 @@ gem "ref"
 gem "whittle"
 gem "exifr"
 gem "listen"
+gem "nokogiri", "~> 1.14.3"
+gem "rexml", "~> 3.2.7"
 gem "commonmarker", "~> 0.23.9"
 gem "jekyll-theme-hydejack", git: "https://github.com/hydecorp/hydejack-pro", tag: "pro/v9.2.1"
 
