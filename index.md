@@ -3,7 +3,6 @@ layout: page
 title: Welcome
 sitemap: false
 ---
-### Welcome!
 I'm thrilled to have you here! Dive into the world of my work, where passion meets innovation.
 Explore My Work
 
