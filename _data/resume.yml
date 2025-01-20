@@ -6,19 +6,30 @@ basics:
     Detail-oriented IT professional with over three years of experience supporting information systems. Proven expertise in data analysis, workflow optimization, and collaborative problem-solving within science and data-driven settings. Adept at implementing system improvements to enhance integrity, operational efficiency, and regulatory compliance.
 
 work:
-  - company: "Freelance"
-    position: "IT Support Technician"
+  - company: "Nordic Global"
+    position: "Patiant Portal Service Desk I"
     website: ""
-    startDate: "2023-09-01"
+    startDate: "2024-12-16"
     endDate: "Present"
     summary: >
-      Provider of analyses, consulting, and deliverables for a variety of businesses and operating structures. 
+      Provided Tier 1 support for MyChart users, efficiently resolving technical issues, managing helpdesk tickets via ServiceNow, creating support documentation, and delivering user training to optimize technology adoption. 
     highlights:
-      - "•	Managed and resolved technical support inquiries, ensuring client satisfaction and maintaining seamless service operations."
-      - "•	Coordinated with cross-functional teams to develop data solutions, improving information integration processes by 30%."
-      - "•	Developed adaptable solutions for diverse data-related tasks, demonstrating flexibility and problem-solving capabilities."
-      - "•	Provide remote IT support, effectively resolving technical issues for clients through calls and emails while ensuring high levels of customer satisfaction."
-      - "•	Document, categorize, and prioritize support requests, following escalation protocols to ensure timely resolution and follow-up."
+      - "•	Provided Tier 1 technical support for MyChart users, resolving issues related to browsers, mobile operating systems, and internet connectivity"
+      - "•	Utilized ServiceNow for tracking, managing, and resolving helpdesk tickets efficiently."
+      - "•	Developed and maintained support documentation to streamline processes and improve knowledge sharing."
+      - "•	Delivered user training to enhance adoption and effective use of client-facing technology."
+
+  - company: "Freelance"
+    position: "Business Systems Analyst"
+    website: ""
+    startDate: "2023-09-01"
+    endDate: "2024-12-01"
+    summary: >
+      Analyzed and optimized IT systems and processes, developed advanced data reports and dashboards, and communicated actionable insights to stakeholders to enhance operational efficiency and alignment with organizational goals.
+    highlights:
+      - "•	Analyzed and optimized IT systems and business processes, aligning solutions with organizational goals."
+      - "•	Created advanced reports and dashboards using SQL, Excel, and Google Sheets, leading to a 30% improvement in data processing efficiency."
+      - "•	Presented actionable insights to stakeholders, simplifying complex technical information for diverse audiences."
 
   - company: "Freelance"
     position: "Electronics Repair Technician"
@@ -33,18 +44,6 @@ work:
       - "•	Elevated service delivery through detailed technical assessments and repairs, ensuring functionality and safety."
       - "•	Diagnosed and resolved technical issues for networks, computers, and peripherals, consistently delivering high levels of customer satisfaction."
       - "•	Conduct technical assessments and repairs on hardware systems, ensuring optimal functionality and security for clients."
-
-  - company: "Inside Out Inspection Services, LLC"
-    position: "Administrative Specialist"
-    website: "https://insideoutbi.com/"
-    startDate: "2019-06-01"
-    endDate: "2020-06-01"
-    summary: >
-      Inside Out Inspection Services offered home and building inspections and education to the greater Seattle area and surrounding counties. A small, locally owned business, IOIS had 4 employees during the tenure of this position and received high volumes of customer engagement and requests for services.
-    highlights:
-      - "•	Improved service workflows by 25% through optimized scheduling and coordination, ensuring seamless customer experiences and high satisfaction rates."
-      - "•	Answered phones, emails, and handled incoming and outgoing mail for business operations."
-      - "•	Utilized exceptional communication skills to manage and prioritize service requests, providing timely follow-up and resolution. "
   
   - company: "The University of Virginia"
     position: "Admissions & Financial Aid Specialist"
