@@ -6,74 +6,64 @@ basics:
     Detail-oriented IT professional with over three years of experience supporting information systems. Proven expertise in data analysis, workflow optimization, and collaborative problem-solving within science and data-driven settings. Adept at implementing system improvements to enhance integrity, operational efficiency, and regulatory compliance.
 
 work:
-  - company: "Freelance"
-    position: "IT Support Technician"
+  - company: "Nordic Global"
+    position: "Patient Portal Service Desk"
     website: ""
-    startDate: "2023-09-01"
+    startDate: "2024-12-15"
     endDate: "Present"
-    summary: >
-      Provider of analyses, consulting, and deliverables for a variety of businesses and operating structures. 
     highlights:
-      - "•	Managed and resolved technical support inquiries, ensuring client satisfaction and maintaining seamless service operations."
-      - "•	Coordinated with cross-functional teams to develop data solutions, improving information integration processes by 30%."
-      - "•	Developed adaptable solutions for diverse data-related tasks, demonstrating flexibility and problem-solving capabilities."
-      - "•	Provide remote IT support, effectively resolving technical issues for clients through calls and emails while ensuring high levels of customer satisfaction."
-      - "•	Document, categorize, and prioritize support requests, following escalation protocols to ensure timely resolution and follow-up."
+      - "• Provided Tier 1 technical support for MyChart users, troubleshooting browser, mobile OS, authentication, and network issues."
+      - "• Monitored and documented security-related issues within ServiceNow, ensuring compliance with data privacy and cybersecurity policies."
+      - "• Developed and maintained support documentation to enhance efficiency and ensure adherence to Standard Operating Procedures (SOPs)."
+      - "• Collaborated with IT security teams to escalate potential security threats and data privacy concerns related to electronic health records (EHRs)."
 
   - company: "Freelance"
-    position: "Electronics Repair Technician"
+    position: "Electronics Repair Technician/Lead"
     website: ""
     startDate: "2016-06-01"
-    endDate: "Present"
-    summary: >
-      Performed simple-to-complex electronic repairs and installations on a wide variety of technology: automobile audio, cellphones, laptops, PCs, small electronics, gaming consoles, and power tools.
+    endDate: "2024-12-15"
     highlights:
-      - "•	Diagnosed and repaired a wide range of technical issues and devices, demonstrating in-depth technical knowledge and problem-solving expertise."
-      - "•	Delivered exceptional customer service, aligning technical solutions with customer needs to promote loyalty and trust."
-      - "•	Elevated service delivery through detailed technical assessments and repairs, ensuring functionality and safety."
-      - "•	Diagnosed and resolved technical issues for networks, computers, and peripherals, consistently delivering high levels of customer satisfaction."
-      - "•	Conduct technical assessments and repairs on hardware systems, ensuring optimal functionality and security for clients."
+      - "• Tracked IT hardware components for repair, maintenance, and disposal, ensuring compliance with asset lifecycle management best practices."
+      - "• Conducted data audits and quality control processes, reducing asset misallocation and improving compliance with business security standards."
+      - "• Maintained financial records for IT asset expenditures, aligning with cost optimization and cybersecurity budgeting."
 
-  - company: "Inside Out Inspection Services, LLC"
-    position: "Administrative Specialist"
-    website: "https://insideoutbi.com/"
-    startDate: "2019-06-01"
-    endDate: "2020-06-01"
-    summary: >
-      Inside Out Inspection Services offered home and building inspections and education to the greater Seattle area and surrounding counties. A small, locally owned business, IOIS had 4 employees during the tenure of this position and received high volumes of customer engagement and requests for services.
+  - company: "Kids Rank"
+    position: "Data Management & IT Solutions Volunteer"
+    website: "https://www.kidsrank.org/"
+    startDate: "2024-03-12"
+    endDate: "2024-10-01"
     highlights:
-      - "•	Improved service workflows by 25% through optimized scheduling and coordination, ensuring seamless customer experiences and high satisfaction rates."
-      - "•	Answered phones, emails, and handled incoming and outgoing mail for business operations."
-      - "•	Utilized exceptional communication skills to manage and prioritize service requests, providing timely follow-up and resolution. "
-  
+      - "• Developed automation scripts using JavaScript to enhance data management workflows, reducing manual entry errors and improving efficiency."
+      - "• Reconciled and analyzed financial datasets, ensuring accuracy in reporting and compliance with organizational budgeting processes."
+      - "• Created interactive dashboards in Google Sheets to visualize key operational metrics, supporting data-driven decision-making for leadership."
+
+  - company: "Freelance/Volunteer"
+    position: "Endpoint Security Support Specialist Volunteer"
+    website: "https://www.kidsrank.org/"
+    startDate: "2023-09-01"
+    endDate: "2024-12-01"
+    highlights:
+      - "• Conducted security assessments, removed malicious software, and implemented preventative security measures, including firewall configurations, antivirus setup, and software updates."
+      - "• Educated users on safe browsing habits, password management, and phishing awareness to prevent future security incidents."
+      - "• Assisted in configuring multi-factor authentication (MFA) and enhancing system security through operating system hardening and privacy settings adjustments."
+
   - company: "The University of Virginia"
     position: "Admissions & Financial Aid Specialist"
     website: "https://www.arch.virginia.edu/"
     startDate: "2014-01-01"
     endDate: "2016-05-01"
-    summary: >
-      The School of Architecture at the University of Virginia contains Undergraduate, Graduate, and Doctorate-level programs and concentrations in Architecture, Architectural History, Landscape Architecture, and Urban Planning.
     highlights:
-      - "•	Managed critical protected data and facilitated communication across departments, ensuring accuracy and confidentiality."
-      - "•	Engaged in detailed process analysis, driving improvements and efficiency in institutional record management and strategic decision making."
-      - "•	Managed communications and documentation processes (phones, emails, in-person, and physical mail), ensuring adherence to institutional policies while improving the user experience."
-
-volunteer:
-  - organization: "Kids Rank"
-    position: "Data Technician"
-    website: ""
-    startDate: "2024-04-18"
-    endDate: "2024-10-20"
-    summary: "Provided consulting for organizational data analysis and file management for the Executive Director of 501c(3) service-based nonprofit which provides social and emotional enrichment for children of military parents."
-
-  - organization: "Mary Washington Hospital"
-    position: "Patient Services Volunteer"
-    website: ""
-    startDate: "2003-06-01"
-    endDate: "2003-06-30"
-    summary: "Supported the nurse manager and administrative team by managing front desk calls in post-surgical and maternity units."
-
+      - "•	Developed and implemented data governance policies to ensure compliance with FERPA and institutional security standards."
+      - "•	Led training sessions for staff on secure data handling practices, aligning with university and federal compliance standards."
+      - "•	Partnered with university leadership to create and enforce data protection policies supporting institutional cybersecurity goals."
 education:
+  - institution: "Western Governors University"
+    area: "Software Development"
+    studyType: "Bachelor"
+    startDate: "2021-11-01"
+    endDate: "2023-10-01"
+    gpa: ""
+      
   - institution: "University of Mary Washington"
     area: "Environmental Science"
     studyType: "Bachelor"
@@ -109,22 +99,22 @@ certificates:
   - title: "COMPTIA A+"
     date: "2024-08-29"
     awarder: "COMPTIA"
-    summary: "A+ Certification is a professional certification provided by CompTIA (the Computing Technology Industry Association). It is designed to validate the foundational skills and knowledge required for entry-level IT professionals."
+   # summary: "A+ Certification is a professional certification provided by CompTIA (the Computing Technology Industry Association). It is designed to validate the foundational skills and knowledge required for entry-level IT professionals."
 
   - title: "Healthcare IT Support"
     date: "2024-03-27"
     awarder: "Johns Hopkins University on Coursera"
-    summary: "Specialization covers the role of IT support staff in healthcare, health information technology fundamentals, operations and patient safety for healthcare IT staff, and healthcare data security, privacy, and compliance."
+    # summary: "Specialization covers the role of IT support staff in healthcare, health information technology fundamentals, operations and patient safety for healthcare IT staff, and healthcare data security, privacy, and compliance."
 
   - title: "ITIL 4 Foundation Certificate IT Service Management"
     date: "2023-08-11"
     awarder: "PeopleCert"
-    summary: "ITIL is a set of best practices for IT service management (ITSM) that helps organizations align their IT services with the needs of their business. The ITIL 4 Foundation certification provides a comprehensive introduction to the ITIL framework and focuses on the key concepts, terminology, and principles of ITIL 4."
+    # summary: "ITIL is a set of best practices for IT service management (ITSM) that helps organizations align their IT services with the needs of their business. The ITIL 4 Foundation certification provides a comprehensive introduction to the ITIL framework and focuses on the key concepts, terminology, and principles of ITIL 4."
 
   - title: "Python Programming"
     date: "2019-06-01"
     awarder: "University of Washington Professional & Continuing Education"
-    summary: "This three-course certificate program, provides a thorough understanding of the power of Python libraries as well as standard programming styles and idioms. It explores different aspects of network-based programming with Python, including developing data systems and web applications, and larger systems development issues and advanced topics. It covers unit testing, coding style and Python PEP8 compliance to learn the best practices for writing Python code."
+    # summary: "This three-course certificate program, provides a thorough understanding of the power of Python libraries as well as standard programming styles and idioms. It explores different aspects of network-based programming with Python, including developing data systems and web applications, and larger systems development issues and advanced topics. It covers unit testing, coding style and Python PEP8 compliance to learn the best practices for writing Python code."
 
 # publications:
 #   - name: "A Comparative Analysis of the Health of the Ni River and Massaponax Creek in Spotsylvania County."
@@ -134,31 +124,30 @@ certificates:
 #     summary: "Research project monitoring the water quality and overall stream health of several streams within Spotsylvania County, Virginia."
 
 skills:
+  - name: "Threat Detection & Incident Response"
+    level: "Intermediate"
+    keywords:
+      - "SIEM, IDS/IPS, Malware Analysis"
+
   - name: "IT Support"
     level: "Professional"
     keywords:
-      - "Technical Skills"
       - "Software Proficiency"
       - "Documentation Skills"
       - "Operating Systems Knowledge"
-      - "Basic Scripting"
   
   - name: "Requirements Gathering"
     level: "Professional"
     keywords:
-      - "Interpersonal Skills"
       - "Facilitation Skills"
       - "Documentation Skills"
       - "Project Management Skills"
-      - "Change Management"
 
   - name: "Data Analysis"
     level: "Professional"
     keywords:
       - "Analytical Thinking"
       - "Attention to Detail"
-      - "Technical Proficiency"
-      - "Business Acumen"
       - "Communication Skills"
 
   - name: "Front End Development"
@@ -173,6 +162,7 @@ skills:
     keywords:
       - "Java"
       - "Python"
+      - "C, C++, C#"
 
   - name: "Databases and Visualization"
     level: "Professional"
