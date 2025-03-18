@@ -58,7 +58,7 @@ work:
       - "•	Partnered with university leadership to create and enforce data protection policies supporting institutional cybersecurity goals."
 education:
   - institution: "Western Governors University"
-    area: "Software Development"
+    area: "Software Development (Studies Paused)"
     studyType: "Bachelor"
     startDate: "2021-11-01"
     endDate: "2023-10-01"
@@ -96,15 +96,15 @@ awards:
 
 
 certificates:
+
+  - title: "COMPTIA Security+ (In Progress)"
+    date: "2025-06-30"
+    awarder: "COMPTIA"
+
   - title: "COMPTIA A+"
     date: "2024-08-29"
     awarder: "COMPTIA"
    # summary: "A+ Certification is a professional certification provided by CompTIA (the Computing Technology Industry Association). It is designed to validate the foundational skills and knowledge required for entry-level IT professionals."
-
-  - title: "Healthcare IT Support"
-    date: "2024-03-27"
-    awarder: "Johns Hopkins University on Coursera"
-    # summary: "Specialization covers the role of IT support staff in healthcare, health information technology fundamentals, operations and patient safety for healthcare IT staff, and healthcare data security, privacy, and compliance."
 
   - title: "ITIL 4 Foundation Certificate IT Service Management"
     date: "2023-08-11"
