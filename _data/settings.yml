@@ -1,0 +1,160 @@
+#-------------------------------
+# Site Settings
+title: Micah
+logo: "/images/Micah.svg" # You can add own logo. For example '/images/logo.png'.
+logo_dark: "/images/Micah-dark.svg"
+description: My personal website showcasing my work and projects.
+color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+
+
+#-------------------------------
+# Navigation Settings
+menu_settings:
+  menu_items:
+    - title: 'Home'
+      url: '/'
+    - title: 'About'
+      url: '/about/'
+    - title: 'Projects'
+      url: '/projects/'
+
+#-------------------------------
+# Author Settings
+author:
+  author_intro: Hey, I'm Micah Cole
+  author_name: Micah Cole
+  author_role: Software Devloper//DevOps
+  author_avatar: /images/img_logo_1.png # was 01.jpg
+
+
+#-------------------------------
+# Sidebar Section Settings
+sidebar:
+  sidebar_title: Data, security, and IT—solving problems with tech.
+  sidebar_description: Showcasing my expertise in data analysis, cybersecurity, and IT through articles and projects. Explore my work in problem-solving, design, automation, and innovative tech solutions.
+
+
+# Social Links
+social:
+- {icon: "fa-brands fa-github", name: "Github", link: "https://github.com/micah-e-cole?tab=repositories"}
+- {icon: "fa-brands fa-linkedin", name: "Linkedin", link: "https://www.linkedin.com/in/micah-e-cole/"}
+- {icon: "fa-brands fa-gitlab", name: "Gitlab", link: "https://gitlab.com/micmac00"}
+- {icon: "fa-brands fa-stack-overflow", name: "Stack Overflow", link: "https://stackoverflow.com/users/21038013/wheeliefun"}
+
+# Example of adding a new link to the footer - {icon: "fa-brands fa-pinterest", name: "Pinterest", link: "https://pinterest.com"}
+# Other icons can be found at https://fontawesome.com/icons
+
+
+#-------------------------------
+# Projects Settings
+projects:
+  enable: true
+  projects_title: Projects <em>Showcase</em> # You can add an 'em' element to highlight text.
+  projects_description: Past, current, and future projects.
+
+
+#-------------------------------
+# Testimonials Settings
+testimonials:
+  enable: false
+  testimonials_title: Trusted by <em>Professionals</em> # You can add an 'em' element to highlight text.
+  testimonials_description: Join our community of creative professionals where you can develop your talents and reach new heights in design.
+
+# testimonial-items:
+#   - name: Amelia Jones
+#     image: "/images/client-1.jpg"
+#     designation : Network Engineer
+#     content : This product designer is an expert in his field. His ability to understand the needs of clients and create designs that satisfy them is astounding.
+
+#   - name: Ethan Robinson
+#     image: "/images/client-2.jpg"
+#     designation : Blockchain Developer
+#     content : Kevin is a true visionary in the field of product design. His ability to think outside the box and push boundaries is what sets him apart from the rest.
+
+#   - name: Matthew Garcia
+#     image: "/images/client-3.jpg"
+#     designation : IT Support Specialist
+#     content : I cannot recommend this designer highly enough. Their designs are not only visually stunning but also highly functional, making them perfect for our needs.
+
+
+#-------------------------------
+# Blog Section Settings
+blog:
+  enable: false
+  # blog_title: Latest <em>Research</em> & <em>Publications</em> # You can add an 'em' element to highlight text.
+  # blog_description: Discover the latest industry news, insights, and trends in a few clicks.
+
+
+#-------------------------------
+# Faq (Frequently asked questions) Settings
+faq:
+  enable: false
+  faq_title: Questions? <em>Answers</em>. # You can add an 'em' element to highlight text.
+  faq_description: Find solutions to common queries here.
+
+faq_items:
+  # - title: What are your main areas of expertise in product design?
+  #   description: My specialization includes user interface (UI) and user experience (UX) design, prototyping, as well as researching and testing user needs.
+
+  # - title: Can you provide examples of your work?
+  #   description: Yes, on my website, you can find a portfolio with examples of my projects and designs.
+
+  # - title: What is your experience with various platforms and devices?
+  #   description: I have extensive experience working with various platforms, including websites, mobile applications, tablets, and other devices.
+
+  # - title: What tools and software do you use for work?
+  #   description: I work with tools such as Sketch, Adobe XD, Figma, InVision for creating designs and prototypes, and also use Jira and Trello for project management.
+
+  # - title: How long does it take to develop a product design?
+  #   description: The development time depends on the complexity of the project. Usually, creating a product design takes from several weeks to several months.
+
+  # - title: How can I contact you to discuss my project?
+  #   description: You can contact me through the contact form on my website or directly via email. I'm always open to new projects and ready to discuss your idea.
+
+
+#-------------------------------
+# Gallery Settings
+gallery:
+  enable: false
+  gallery_title: A Visual Journey Through <em>My World</em> # You can add an 'em' element to highlight text.
+  gallery_description: Step into my visual world where each image tells a story. From the bustling streets of urban landscapes to the serene beauty of nature, explore the moments that inspire and define my journey.
+  gallery_caption:
+
+gallery_images:
+  # - alt: 'Together'
+  #   url: '/images/100.jpg'
+  # - alt: 'Lifestyle'
+  #   url: '/images/101.jpg'
+  # - alt: 'Friends'
+  #   url: '/images/102.jpg'
+
+
+#-------------------------------
+# Newsletter Settings
+mailchimp:
+  enable: false
+  # mailchimp_title: Subscribe to Our <em>Newsletter</em> # You can add an 'em' element to highlight text.
+  # mailchimp_description: Join now and never miss out on our stuff again. Because you are worth it!
+  # mailchimp_identifier: gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
+  # mailchimp_input_text: Your email address
+  # mailchimp_button_text: Subscribe
+
+
+#-------------------------------
+# Contact Settings
+# contact:
+#   email: your@email.com # Add your form_id
+#   description: Baleon comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
+
+# NOTE
+# Baleon theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvodstudio-demo
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your GA Tracking Id

@@ -1,0 +1,115 @@
+/*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+-------------------------------------------------------------------*/
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+:: Template name: Baleon
+:: Baleon is a stylish and multifunctional theme for Jekyll, perfect for creating portfolios and blogs. With it, you can quickly and easily create a stylish website that highlights your work and publications. Its intuitive interface, responsive design, and numerous customizable options make Baleon an excellent choice for professionals looking to showcase their projects in the best light.
+:: Template Author: Anvod Studio (Artem Sheludko)
+:: Version: 1.0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>
+:: 1-Tools and Libs
+    1.1-Normalize
+    1.2-Reset
+    1.3-Shared
+    1.4-Syntax Highlighting
+    1.5-Grid
+    1.6-Splide
+:: 2-Base Styles
+    2.1-Base
+:: 3-Modules
+    3.1-Header
+    3.2-Sidebar
+    3.3-Projects
+    3.4-Section Testimonials
+    3.5-Article
+    3.6-Section FAQ
+    3.7-Sections
+    3.8-Section Subscribe
+    3.9-Pagination
+    3.10-Footer
+    3.11-Gallery
+    3.12-Buttons
+    3.13-Contact
+:: 4-Layouts
+    4.1-Post + Page
+    4.2-Tags
+<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+@import '0-settings/variables';
+@import '0-settings/color-scheme';
+@import '0-settings/mixins';
+@import '0-settings/helpers';
+
+/* Font Awesome (v6.5.1) */
+@import '0-settings/brands';
+@import '0-settings/solid';
+@import '0-settings/regular';
+@import '0-settings/fontawesome';
+
+
+/* =======================
+:: 1-Tools and Libs
+======================= */
+/* >>>>>>>>>>>>>> :: 1.1-Normalize <<<<<<<<<<<<<<< */
+@import '1-tools/normalize';
+/* >>>>>>>>>>>>>> :: 1.2-Reset <<<<<<<<<<<<<<< */
+@import '1-tools/reset';
+/* >>>>>>>>>>>>>> :: 1.3-Shared <<<<<<<<<<<<<<< */
+@import '1-tools/shared';
+/* >>>>>>>>>>>>>> :: 1.4-Syntax Highlighting <<<<<<<<<<<<<<< */
+@import '1-tools/syntax-highlighting';
+/* >>>>>>>>>>>>>> :: 1.5-Grid <<<<<<<<<<<<<<< */
+@import '1-tools/grid';
+/* >>>>>>>>>>>>>> :: 1.6-Splide <<<<<<<<<<<<<<< */
+@import '1-tools/splide';
+
+
+/* =======================
+:: 2-Base Styles
+======================= */
+/* >>>>>>>>>>>>>> :: 2.1-Base <<<<<<<<<<<<<<< */
+@import '2-base/base';
+
+
+/* =======================
+:: 3-Modules
+======================= */
+/* >>>>>>>>>>>>>> :: 3.1-Header <<<<<<<<<<<<<<< */
+@import '3-modules/header';
+/* >>>>>>>>>>>>>> :: 3.2-Sidebar <<<<<<<<<<<<<<< */
+@import '3-modules/sidebar';
+/* >>>>>>>>>>>>>> :: 3.3-Projects <<<<<<<<<<<<<<< */
+@import '3-modules/projects';
+/* >>>>>>>>>>>>>> :: 3.4-Section Testimonials <<<<<<<<<<<<<<< */
+@import '3-modules/section-testimonials';
+/* >>>>>>>>>>>>>> :: 3.5-Article <<<<<<<<<<<<<<< */
+@import '3-modules/article';
+/* >>>>>>>>>>>>>> :: 3.6-Section FAQ <<<<<<<<<<<<<<< */
+@import '3-modules/section-faq';
+/* >>>>>>>>>>>>>> :: 3.7-Sections <<<<<<<<<<<<<<< */
+@import '3-modules/sections';
+/* >>>>>>>>>>>>>> :: 3.8-Section Subscribe <<<<<<<<<<<<<<< */
+@import '3-modules/section-subscribe';
+/* >>>>>>>>>>>>>> :: 3.9-Pagination <<<<<<<<<<<<<<< */
+@import '3-modules/pagination';
+/* >>>>>>>>>>>>>> :: 3.10-Footer <<<<<<<<<<<<<<< */
+@import '3-modules/footer';
+/* >>>>>>>>>>>>>> :: 3.11-Gallery <<<<<<<<<<<<<<< */
+@import '3-modules/gallery';
+/* >>>>>>>>>>>>>> :: 3.12-Buttons <<<<<<<<<<<<<<< */
+@import '3-modules/buttons';
+/* >>>>>>>>>>>>>> :: 3.13-Contact <<<<<<<<<<<<<<< */
+@import '3-modules/contact';
+
+
+/* =======================
+:: 4-Layouts
+======================= */
+/* >>>>>>>>>>>>>> :: 4.1-Post + Page <<<<<<<<<<<<<<< */
+@import '4-layouts/post';
+/* >>>>>>>>>>>>>> :: 4.2-Tags <<<<<<<<<<<<<<< */
+@import '4-layouts/tags';

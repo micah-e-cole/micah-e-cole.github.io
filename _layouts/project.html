@@ -1,0 +1,126 @@
+---
+layout: default
+---
+
+<div class="container">
+
+  <!-- begin post head  -->
+  <div class="post-head{% if page.image == nil and page.video_embed == nil %} without-image{% endif %}">
+    <div class="post-info">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <div class="post-meta">
+        {% if page.subtitle %}
+          <p class="post-subtitle">{{ page.subtitle }}</p>
+        {% endif %}
+        <span>•</span>
+        <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+      </div>
+    </div>
+
+    {% if page.video_embed %}
+    <div class="post-video">
+      <div class="post-video__wrap">
+        <iframe src="{{ page.video_embed }}" loading="lazy" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div>
+    {% else %}
+
+    {% if page.image %}
+    <div class="post-image">
+      <img class="lazy" data-src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+    </div>
+    {% endif %}
+    {% endif %}
+  </div>
+  <!-- end post head -->
+
+  <!-- begin post -->
+  <article class="post">
+    <div class="post__content">
+      {{ content }}
+    </div>
+
+    <div class="post__bottom">
+      <div class="post__author">
+        {% if site.data.settings.author.author_avatar %}
+        <div class="post__author__avatar">
+          <img class="lazy" data-src="{{ site.data.settings.author.author_avatar }}" alt="{{ site.data.settings.author.author_name }}">
+        </div>
+        {% endif %}
+        <div class="post__author__info">
+          {% if site.data.settings.author.author_name %}
+            <div class="post__author__intro">{{ site.data.settings.author.author_name }}</div>
+          {% endif %}
+          {% if site.data.settings.author.author_role %}
+            <span class="post__author__role">{{ site.data.settings.author.author_role }}</span>
+          {% endif %}
+        </div>
+      </div>
+      {% include share-buttons.html %}
+    </div>
+
+    {% if page.previous.url %}
+    <div class="post__navigation">
+      <a class="post__navigation__prev" href="{{ page.previous.url | relative_url }}">
+        <h3 class="post__navigation__info">Explore <em>Next</em></h3>
+        <h4 class="post__navigation__title">{{ page.previous.title }}</h4>
+      </a>
+    </div>
+    {% endif %}
+  </article>
+  <!-- end post -->
+
+  {% assign project-collection = site[page.collection] | sample:5 %}
+  {% assign filtered-projects = project-collection | where_exp: "project", "project.url != page.url" %}
+  {% if filtered-projects.size > 0 %}
+  <!-- begin post related -->
+  <div class="post__related">
+    <h2 class="post__related__title">Other <em>Projects</em></h2>
+    <div class="row">
+    {% assign relatedCount = 0 %}
+    {% for project in project-collection %}
+      {% if project.url != page.url %}
+      <article class="project col col-3 col-d-6 col-t-12">
+        <div class="project__content">
+
+          <div class="project__head">
+            {% if project.image and project.video_embed %}
+            <div class="video-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                <polygon points="40,30 65,50 40,70"></polygon>
+              </svg>
+            </div>
+            {% endif %}
+            {% if project.image %}
+            <a href="{{ project.url | relative_url }}" class="project__image">
+              <img class="lazy" data-src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+            </a>
+            {% endif %}
+          </div>
+
+          <div class="project__info">
+            <h2 class="project__title">
+              <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+            </h2>
+            <div class="project__meta">
+              {% if project.subtitle %}
+                <div class="project__subtitle">{{ project.subtitle }}</div><span>•</span>
+              {% endif %}
+              <time datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date_to_string }}</time>
+            </div>
+          </div>
+
+        </div>
+      </article>
+      {% assign relatedCount = relatedCount | plus: 1 %}
+      {% if relatedCount >= 4 %}
+        {% break %}
+      {% endif %}
+      {% endif %}
+    {% endfor %}
+    </div>
+  </div>
+  <!-- end post related -->
+  {% endif %}
+
+</div>

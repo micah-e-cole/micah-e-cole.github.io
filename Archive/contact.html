@@ -1,0 +1,31 @@
+---
+layout: page
+title: Contact <em>Me</em>
+permalink: /contact/
+image: '/images/40.jpg'
+---
+{% if site.data.settings.contact.description %}
+  <p class="contact-description">{{ site.data.settings.contact.description }}</p>
+{% else %}
+  <p class="contact-description">{{ page.description }}</p>
+{% endif %}
+
+<form class="contact-form" action="{% if site.data.settings.contact.email %}https://formspree.io/f/{{site.data.settings.contact.email}}{% else %}#{% endif %}" method="POST">
+  <div class="form__group">
+    <label class="form__label screen-reader-text" for="form-name">Your Name</label>
+    <input class="form__input" id="form-name" type="text" name="name" placeholder="Enter your name" required>
+  </div>
+  <div class="form__group">
+    <label class="form__label screen-reader-text" for="form-email">Your Email</label>
+    <input class="form__input" id="form-email" type="email" name="_replyto" placeholder="Enter your email" required>
+  </div>
+  <div class="form__group">
+    <label class="form__label screen-reader-text" for="form-text">Your Message</label>
+    <textarea class="form__input" id="form-text" name="text" rows="8" placeholder="Enter your message" required></textarea>
+  </div>
+  <div class="form__group">
+    <button class="button button--accent" type="submit">Send Message</button>
+  </div>
+</form>
+
+<hr>

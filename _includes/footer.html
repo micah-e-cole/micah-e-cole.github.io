@@ -1,0 +1,54 @@
+<!-- begin footer -->
+<footer class="footer">
+  <div class="container">
+
+    {% if page.url != '/' and site.data.settings.mailchimp.enable == true %}
+    <div class="row">
+      <div class="col col-12">
+        <div class="subscribe">
+          <div class="subscribe__content">
+          {% if site.data.settings.mailchimp.mailchimp_title %}
+            <h3 class="subscribe__title">{{ site.data.settings.mailchimp.mailchimp_title }}</h3>
+          {% endif %}
+          {% if site.data.settings.mailchimp.mailchimp_description %}
+            <p class="subscribe__description">{{ site.data.settings.mailchimp.mailchimp_description }}</p>
+          {% endif %}
+          </div>
+          <form class="subscribe__form validate"
+            action="{% if site.data.settings.mailchimp.mailchimp_identifier %}//{{ site.data.settings.mailchimp.mailchimp_identifier }}{% else %}#{% endif %}"
+            method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
+            <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
+            <input class="subscribe__email required email" id="mce-EMAIL" type="text" name="EMAIL" placeholder="{% if site.data.settings.mailchimp.mailchimp_input_text %}{{ site.data.settings.mailchimp.mailchimp_input_text }}{% else %}Email address{% endif %}">
+            <button class="button button--accent" id="membedded-subscribe" type="submit" name="subscribe">{{ site.data.settings.mailchimp.mailchimp_button_text }}</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+    <div class="row">
+      <div class="col col-12">
+        <div class="footer__info">
+
+          <div class="copyright">{{site.time | date: '%Y'}} &copy; <a href="/">{{site.data.settings.title}}</a>. Crafted & Designed by <a href="https://jekyllthemes.io/developers/artem-sheludko">Artem Sheludko</a>.</div>
+
+          {% if page.url != '/' and site.data.settings.social %}
+          <div class="social">
+            <ul class="social__list list-reset">
+              {% for social in site.data.settings.social %}
+              <li class="social__item">
+                <a class="social__link" href="{{ social.link }}" target="_blank" rel="noopener"
+                  aria-label="{{ social.name }} link"><i class="{{ social.icon }}"></i></a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+<!-- end footer -->

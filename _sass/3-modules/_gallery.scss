@@ -1,0 +1,135 @@
+/* Gallery */
+.gallery-box {
+  margin: 32px -90px 32px -90px;
+
+  @media (max-width: $desktop) {
+    margin: 32px 0;
+  }
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-content: center;
+  margin-left: -24px;
+  margin-bottom: -24px;
+
+  &-columns-1 {
+    grid-template-columns: repeat(1, auto);
+  }
+
+  &-columns-2 {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  &-columns-3 {
+    grid-template-columns: repeat(3, auto);
+  }
+
+  &-columns-4 {
+    grid-template-columns: repeat(4, auto);
+  }
+
+  img {
+    margin-left: 24px;
+    margin-bottom: 24px;
+    width: calc(100% - 24px);
+    cursor: zoom-in;
+  }
+
+  @media (max-width: $desktop) {
+    margin-left: -12px;
+    margin-bottom: -12px;
+
+    img {
+      margin-left: 12px;
+      margin-bottom: 12px;
+      width: calc(100% - 12px);
+    }
+  }
+}
+
+/* Section Gallery */
+.section-gallery {
+  .section-gallery__inner {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    align-content: center;
+    grid-gap: 12px;
+
+    .section-gallery__image {
+      border-radius: 24px;
+      transform: translate(0);
+      overflow: hidden;
+      background: var(--background-alt-color-2);
+
+      &:first-child {
+        grid-column: span 2;
+      }
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        cursor: zoom-in;
+      }
+    }
+
+  }
+
+  .section-gallery__caption {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--text-alt-color);
+
+    a {
+      font-weight: 500;
+    }
+  }
+
+  @media (max-width: $desktop) {
+    .section-gallery__inner {
+      .section-gallery__image {
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
+/* Overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--background-color);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .25s;
+
+  @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    background: var(--background-rgba);
+  }
+
+  &.active {
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    visibility: visible;
+    cursor: zoom-out;
+    transition: opacity .25s;
+  }
+
+  img {
+    max-width: 90%;
+    max-height: 90%;
+  }
+}

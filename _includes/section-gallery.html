@@ -1,0 +1,34 @@
+{% if site.data.settings.gallery.enable == true %}
+<!-- begin section gallery -->
+<section class="section section-gallery">
+  <div class="row">
+    <div class="col col-12">
+
+      <div class="section__info">
+        {% if site.data.settings.gallery.gallery_title %}
+          <h2 class="section__title">{{ site.data.settings.gallery.gallery_title }}</h2>
+        {% endif %}
+        {% if site.data.settings.gallery.gallery_description %}
+          <p class="section__description">{{ site.data.settings.gallery.gallery_description }}</p>
+        {% endif %}
+      </div>
+
+      <div class="section-gallery__inner">
+        {% for image in site.data.settings.gallery_images %}
+        <div class="section-gallery__image">
+          <img class="lazy" data-src="{{ image.url }}" alt="{{ image.alt }}">
+        </div>
+        {% endfor %}
+      </div>
+
+      {% if site.data.settings.gallery.gallery_caption %}
+      <div class="section-gallery__caption">
+        {{ site.data.settings.gallery.gallery_caption }}
+      </div>
+      {% endif %}
+
+    </div>
+  </div>
+</section>
+<!-- end section gallery -->
+{% endif %}

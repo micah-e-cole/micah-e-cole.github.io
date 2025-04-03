@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<div class="container">
+
+  <!-- begin page head  -->
+  <div class="page-head{% if page.image == nil and page.video_embed == nil %} without-image{% endif %}">
+
+    <div class="page-info">
+      <h1 class="page-title">{{ page.title }}</h1>
+    </div>
+
+    {% if page.video_embed %}
+    <div class="page-video">
+      <div class="page-video__wrap">
+        <iframe src="{{ page.video_embed }}" loading="lazy" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div>
+    {% else %}
+
+    {% if page.image %}
+    <div class="page-image">
+      <img class="lazy" data-src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+    </div>
+    {% endif %}
+    {% endif %}
+  </div>
+  <!-- end page head -->
+
+  <!-- begin page -->
+  <article class="page">
+    <div class="page__content">
+      {{ content }}
+    </div>
+  </article>
+  <!-- end page -->
+
+</div>
+
+{% if page.name == '404.html' %}
+<!-- begin recent posts -->
+<section class="section recent-posts">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="section__info">
+          <h2 class="section__title">Recent <em>Articles</em></h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      {% for post in site.posts limit:4 %}
+        {% include article.html %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- end recent posts -->
+{% endif %}

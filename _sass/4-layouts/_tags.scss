@@ -1,0 +1,43 @@
+/* Tags */
+.tag-page {
+  margin-bottom: -32px;
+
+  .tags {
+    &.is-hidden {
+      display: none;
+    }
+  }
+}
+
+.tag-page__head {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  margin-bottom: 32px;
+  font-size: 52px;
+  line-height: 1.2;
+
+  .tag-page__title {
+    margin: 0;
+    font-size: inherit;
+    line-height: 1.2;
+  }
+
+  .tag-page__counter {
+    font-family: $highlighted-font;
+    font-size: inherit;
+    font-weight: 400;
+    line-height: inherit;
+    color: var(--heading-font-color);
+  }
+
+  @media (max-width: $desktop) {
+    margin-bottom: 24px;
+    font-size: 46px;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 36px;
+  }
+}

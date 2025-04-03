@@ -1,0 +1,102 @@
+/* Projects */
+.projects-page {
+  margin-bottom: -32px;
+}
+
+.project {
+  margin-bottom: 32px;
+
+  .project__content {
+    border-radius: 24px;
+    overflow: hidden;
+
+    &:hover {
+      .project__image {
+        img {
+          transform: scale3d(1.04, 1.04, 1);
+        }
+      }
+
+      .video-icon {
+        transform: translate(-50%, -50%) scale(1.1);
+        will-change: transform;
+      }
+
+      .project__info {
+        background: var(--background-alt-color-2);
+      }
+    }
+
+    .project__head {
+      position: relative;
+
+      .project__image {
+        position: relative;
+        transform: translate(0);
+        display: block;
+        aspect-ratio: 4/3;
+        border-radius: 24px 24px 0 0;
+        outline: none;
+        overflow: hidden;
+        background: var(--background-alt-color-2);
+
+        img {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          will-change: transform;
+          object-fit: cover;
+          user-select: none;
+          transition: all .35s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+        }
+
+        @supports not (aspect-ratio: 4/3) {
+          padding-bottom: 75%;
+        }
+      }
+    }
+
+    .project__info {
+      padding: 20px 20px 24px;
+      border-radius: 0 0 24px 24px;
+      background: var(--background-alt-color);
+      transition: all .35s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+
+      .project__title {
+        margin-bottom: 4px;
+        font-size: 18px;
+        font-weight: 500;
+
+        a {
+          text-decoration: none;
+        }
+      }
+
+      .project__meta {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        column-gap: 6px;
+        font-size: 14px;
+        color: var(--text-alt-color);
+      }
+
+    }
+  }
+
+  @media (max-width: $desktop) {
+    .project__content {
+      border-radius: 20px;
+
+      .project__head {
+        .project__image {
+          border-radius: 20px 20px 0 0;
+        }
+      }
+
+      .project__info {
+        border-radius: 0 0 20px 20px;
+      }
+    }
+  }
+}

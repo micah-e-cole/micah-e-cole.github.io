@@ -1,0 +1,144 @@
+---
+layout: default
+---
+
+<div class="container">
+
+  <!-- begin post head  -->
+  <div class="post-head{% if page.image == nil and page.video_embed == nil %} without-image{% endif %}">
+    <div class="post-info">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <div class="post-meta">
+        Published in
+        {% if page.tags.size >= 1 %}
+        <div class="post-tags">
+          {% for tag in page.tags %}
+            <a href="{{ site.baseurl }}/tags/?tag={{ tag | downcase | url_encode }}" class="post-tag">{{ tag }}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+        <span>•</span>
+        <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+        <span>•</span>
+        <div class="post-minutes">
+          {% assign words = page.content | number_of_words %}
+          {% if words < 360 %}
+            1 min read
+          {% else %}
+            {{ words | divided_by:180 }} min read
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+    {% if page.video_embed %}
+    <div class="post-video">
+      <div class="post-video__wrap">
+        <iframe src="{{ page.video_embed }}" loading="lazy" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div>
+    {% else %}
+
+    {% if page.image %}
+    <div class="post-image">
+      <img class="lazy" data-src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+    </div>
+    {% endif %}
+    {% endif %}
+  </div>
+  <!-- end post head -->
+
+  <!-- begin post -->
+  <article class="post">
+    <div class="post__content">
+      {{ content }}
+    </div>
+
+    <div class="post__bottom">
+      <div class="post__author">
+        {% if site.data.settings.author.author_avatar %}
+        <div class="post__author__avatar">
+          <img class="lazy" data-src="{{ site.data.settings.author.author_avatar }}" alt="{{ site.data.settings.author.author_name }}">
+        </div>
+        {% endif %}
+        <div class="post__author__info">
+          {% if site.data.settings.author.author_name %}
+            <div class="post__author__intro">{{ site.data.settings.author.author_name }}</div>
+          {% endif %}
+          {% if site.data.settings.author.author_role %}
+            <span class="post__author__role">{{ site.data.settings.author.author_role }}</span>
+          {% endif %}
+        </div>
+      </div>
+      {% include share-buttons.html %}
+    </div>
+
+    {% if page.previous.url %}
+    <div class="post__navigation">
+      <a class="post__navigation__prev" href="{{ page.previous.url | relative_url }}">
+        <h3 class="post__navigation__info">Explore <em>Next</em></h3>
+        <h4 class="post__navigation__title">{{ page.previous.title }}</h4>
+      </a>
+    </div>
+    {% endif %}
+
+    {% if site.data.settings.disqus-identifier %}
+      {% include disqus-comments.html %}
+    {% endif %}
+  </article>
+  <!-- end post -->
+
+  {% assign maxRelated = 4 %}
+  {% assign minCommonTags = 1 %}
+  {% assign maxRelatedCounter = 0 %}
+
+  {% for post in site.posts %}
+    {% assign sameTagCount = 0 %}
+    {% assign commonTags = '' %}
+    {% for tag in post.tags %}
+      {% if post.url != page.url %}
+        {% if page.tags contains tag %}
+          {% assign sameTagCount = sameTagCount | plus: 1 %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    {% if sameTagCount >= minCommonTags %}
+      {% assign related = true %}
+    {% endif %}
+  {% endfor %}
+
+  {% if related == true %}
+  <!-- begin post related -->
+  <div class="post__related">
+    <h2 class="post__related__title">Related <em>Articles</em></h2>
+    <div class="row">
+      {% for post in site.posts %}
+        {% assign sameTagCount = 0 %}
+        {% assign commonTags = '' %}
+
+        {% for tag in post.tags %}
+          {% if post.url != page.url %}
+            {% if page.tags contains tag %}
+              {% assign sameTagCount = sameTagCount | plus: 1 %}
+              {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+              {% assign commonTags = commonTags | append: tagmarkup %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+
+        {% if sameTagCount >= minCommonTags %}
+
+        {% include article.html %}
+
+        {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+          {% if maxRelatedCounter >= maxRelated %}
+              {% break %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+    </div>
+  </div>
+  <!-- end post related -->
+  {% endif %}
+
+</div>

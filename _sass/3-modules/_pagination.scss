@@ -1,0 +1,14 @@
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .load-more-posts {
+    i {
+      margin-left: 6px;
+      transform: rotate(180deg);
+      font-size: 14px;
+    }
+  }
+}

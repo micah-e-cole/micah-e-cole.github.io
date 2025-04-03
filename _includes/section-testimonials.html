@@ -1,0 +1,52 @@
+{% if site.data.settings.testimonials.enable == true %}
+<!-- begin section testimonials -->
+<section class="section section-testimonials">
+  <div class="row">
+    <div class="col col-12">
+
+      <div class="section__info">
+        {% if site.data.settings.testimonials.testimonials_title %}
+          <h2 class="section__title">{{ site.data.settings.testimonials.testimonials_title }}</h2>
+        {% endif %}
+        {% if site.data.settings.testimonials.testimonials_description %}
+          <p class="section__description">{{ site.data.settings.testimonials.testimonials_description }}</p>
+        {% endif %}
+      </div>
+
+      <div class="testimonials__slider splide">
+        <div class="splide__track">
+          <div class="splide__list">
+            {% for testimonial-item in site.data.settings.testimonial-items %}
+            <div class="testimonial-item splide__slide">
+              <div class="testimonial-content">
+                <div class="client-meta">
+                  {% if testimonial-item.image %}
+                    <div class="image-container">
+                      <img class="client-avatar" src="{{ testimonial-item.image | relative_url }}" alt="{{ testimonial-item.name  }}">
+                    </div>
+                  {% endif %}
+                  <div class="client-info">
+                    {% if testimonial-item.name %}
+                      <h3 class="client-name">{{ testimonial-item.name }}</h3>
+                    {% endif %}
+                    {% if testimonial-item.designation %}
+                      <p class="client-designation">{{ testimonial-item.designation }}</p>
+                    {% endif %}
+                  </div>
+                </div>
+                <svg class="testimonial-icon" xmlns="http://www.w3.org/2000/svg" width="96" height="16" fill="none"><g fill="var(--heading-font-color)"><path d="m8 1.333 2.06 4.174 4.607.673-3.334 3.247.787 4.586L8 11.847l-4.12 2.166.787-4.586L1.333 6.18l4.607-.673L8 1.333Z"/><path fill-rule="evenodd" d="M8 .993a.34.34 0 0 1 .305.19l1.981 4.014 4.43.647a.34.34 0 0 1 .188.58l-3.206 3.122.757 4.41a.34.34 0 0 1-.493.358L8 12.231l-3.962 2.083a.34.34 0 0 1-.493-.358l.757-4.41-3.206-3.122a.34.34 0 0 1 .188-.58l4.43-.647 1.981-4.014A.34.34 0 0 1 8 .993Zm0 1.108L6.245 5.658a.34.34 0 0 1-.256.186l-3.925.573 2.84 2.767a.34.34 0 0 1 .098.3l-.67 3.908 3.51-1.846a.34.34 0 0 1 .316 0l3.51 1.846-.67-3.907a.34.34 0 0 1 .098-.301l2.84-2.767-3.925-.573a.34.34 0 0 1-.256-.186L8 2.1Z" clip-rule="evenodd"/></g><g fill="var(--heading-font-color)"><path d="m28 1.333 2.06 4.174 4.607.673-3.334 3.247.787 4.586L28 11.847l-4.12 2.166.787-4.586-3.334-3.247 4.607-.673L28 1.333Z"/><path fill-rule="evenodd" d="M28 .993a.34.34 0 0 1 .305.19l1.981 4.014 4.43.647a.34.34 0 0 1 .188.58l-3.206 3.122.757 4.41a.34.34 0 0 1-.493.358L28 12.231l-3.962 2.083a.34.34 0 0 1-.493-.358l.757-4.41-3.206-3.122a.34.34 0 0 1 .188-.58l4.43-.647 1.981-4.014A.34.34 0 0 1 28 .993Zm0 1.108-1.755 3.557a.34.34 0 0 1-.256.186l-3.925.573 2.84 2.767a.34.34 0 0 1 .098.3l-.67 3.908 3.51-1.846a.34.34 0 0 1 .316 0l3.51 1.846-.67-3.907a.34.34 0 0 1 .098-.301l2.84-2.767-3.925-.573a.34.34 0 0 1-.256-.186L28 2.1Z" clip-rule="evenodd"/></g><g fill="var(--heading-font-color)"><path d="m48 1.333 2.06 4.174 4.607.673-3.334 3.247.787 4.586L48 11.847l-4.12 2.166.787-4.586-3.334-3.247 4.607-.673L48 1.333Z"/><path fill-rule="evenodd" d="M48 .993a.34.34 0 0 1 .305.19l1.981 4.014 4.43.647a.34.34 0 0 1 .188.58l-3.206 3.122.757 4.41a.34.34 0 0 1-.493.358L48 12.231l-3.962 2.083a.34.34 0 0 1-.493-.358l.757-4.41-3.206-3.122a.34.34 0 0 1 .188-.58l4.43-.647 1.981-4.014A.34.34 0 0 1 48 .993Zm0 1.108-1.755 3.557a.34.34 0 0 1-.256.186l-3.925.573 2.84 2.767a.34.34 0 0 1 .098.3l-.67 3.908 3.51-1.846a.34.34 0 0 1 .316 0l3.51 1.846-.67-3.907a.34.34 0 0 1 .098-.301l2.84-2.767-3.925-.573a.34.34 0 0 1-.256-.186L48 2.1Z" clip-rule="evenodd"/></g><g fill="var(--heading-font-color)"><path d="m68 1.333 2.06 4.174 4.607.673-3.334 3.247.787 4.586L68 11.847l-4.12 2.166.787-4.586-3.334-3.247 4.607-.673L68 1.333Z"/><path fill-rule="evenodd" d="M68 .993a.34.34 0 0 1 .305.19l1.981 4.014 4.43.647a.34.34 0 0 1 .188.58l-3.206 3.122.757 4.41a.34.34 0 0 1-.493.358L68 12.231l-3.962 2.083a.34.34 0 0 1-.493-.358l.757-4.41-3.206-3.122a.34.34 0 0 1 .188-.58l4.43-.647 1.981-4.014A.34.34 0 0 1 68 .993Zm0 1.108-1.755 3.557a.34.34 0 0 1-.256.186l-3.925.573 2.84 2.767a.34.34 0 0 1 .098.3l-.67 3.908 3.51-1.846a.34.34 0 0 1 .316 0l3.51 1.846-.67-3.907a.34.34 0 0 1 .098-.301l2.84-2.767-3.925-.573a.34.34 0 0 1-.256-.186L68 2.1Z" clip-rule="evenodd"/></g><g fill="var(--heading-font-color)"><path d="m88 1.333 2.06 4.174 4.607.673-3.334 3.247.787 4.586L88 11.847l-4.12 2.166.787-4.586-3.334-3.247 4.607-.673L88 1.333Z"/><path fill-rule="evenodd" d="M88 .993a.34.34 0 0 1 .305.19l1.981 4.014 4.43.647a.34.34 0 0 1 .188.58l-3.206 3.122.757 4.41a.34.34 0 0 1-.493.358L88 12.231l-3.962 2.083a.34.34 0 0 1-.493-.358l.757-4.41-3.206-3.122a.34.34 0 0 1 .188-.58l4.43-.647 1.981-4.014A.34.34 0 0 1 88 .993Zm0 1.108-1.755 3.557a.34.34 0 0 1-.256.186l-3.925.573 2.84 2.767a.34.34 0 0 1 .098.3l-.67 3.908 3.51-1.846a.34.34 0 0 1 .316 0l3.51 1.846-.67-3.907a.34.34 0 0 1 .098-.301l2.84-2.767-3.925-.573a.34.34 0 0 1-.256-.186L88 2.1Z" clip-rule="evenodd"/></g></svg>
+                {% if testimonial-item.content %}
+                  <p class="client-text">{{ testimonial-item.content }}</p>
+                {% endif %}
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- end section testimonials -->
+{% endif %}

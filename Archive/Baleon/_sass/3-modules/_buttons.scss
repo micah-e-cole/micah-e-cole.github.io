@@ -1,0 +1,70 @@
+/* Buttons */
+.button {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 18px;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  transition: $global-transition;
+  color: var(--button-color);
+  background: var(--button-background-color);
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    will-change: transform;
+    transition: opacity 0.25s;
+    background: var(--button-background-hover);
+  }
+
+  &:hover {
+    color: var(--button-color);
+
+    &:hover {
+      &:before {
+        opacity: 1;
+      }
+    }
+  }
+
+  &--accent {
+    background: var(--button-gradient-color);
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      will-change: transform;
+      transition: opacity 0.25s;
+      background: var(--button-gradient-hover);
+    }
+  }
+
+  &--big {
+    width: 100%;
+  }
+}

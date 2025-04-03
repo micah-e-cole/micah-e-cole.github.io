@@ -1,0 +1,60 @@
+---
+layout: default
+title: Project Design <em>Showcase</em>
+description: I present my top-tier projects, meticulously crafted with unwavering passion, simplicity, boundless creativity, and unparalleled attention to detail.
+image: '/images/100.jpg'
+---
+
+<!-- begin page section head -->
+<div class="container">
+  <div class="page-section-head">
+    {% if page.title %}
+      <h1 class="page-section-title">{{ page.title }}</h1>
+    {% endif %}
+    {% if page.description %}
+      <p class="page-section-description">{{ page.description }}</p>
+    {% endif %}
+  </div>
+</div>
+<!-- end page section head -->
+
+<div class="projects-page container">
+  <div class="row">
+
+    {% for project in site.projects reversed %}
+    <article class="project col col-3 col-d-6 col-t-12">
+      <div class="project__content">
+
+        <div class="project__head">
+          {% if project.image and project.video_embed %}
+          <div class="video-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+              <polygon points="40,30 65,50 40,70"></polygon>
+            </svg>
+          </div>
+          {% endif %}
+          {% if project.image %}
+          <a href="{{ project.url | relative_url }}" class="project__image">
+            <img class="lazy" data-src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+          </a>
+          {% endif %}
+        </div>
+
+        <div class="project__info">
+          <h2 class="project__title">
+            <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+          </h2>
+          <div class="project__meta">
+            {% if project.subtitle %}
+              <div class="project__subtitle">{{ project.subtitle }}</div><span>•</span>
+            {% endif %}
+            <time datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date_to_string }}</time>
+          </div>
+        </div>
+
+      </div>
+    </article>
+    {% endfor %}
+
+  </div>
+</div>
