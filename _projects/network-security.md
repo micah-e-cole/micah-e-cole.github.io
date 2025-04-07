@@ -4,8 +4,10 @@ date: 2025-02-20 08:00:00 +0300
 subtitle: Binary File Translation
 image: '/images/projects/network-sec-tools/netsectools-100.jpg'
 ---
-## Automation
-In an ongoing learning endeavor, I have been learning tools for Network and IT Security. One tool I found difficult to obtain in my own case (using Kali Linux on a virtual machine) was Linux tools to directly read/translate wtmp logs for DFIR. I have been working on creating a C/C++ user-interface that can do this quickly using the imgui library and will be continuing to post updates as I make progress.
+## Automation & Network Security
+In an ongoing learning endeavor, I have been learning tools for Network and IT Security. One tool I found difficult to obtain in my own case (using Kali Linux on a virtual machine) was Linux tools to directly read/translate wtmp logs for Digital Forensics and Incident Response (DFIR). 
+
+I created this graphical user interface (GUI) that can aid the user in selecting the wtmp file and translating the binary file into human readable text using the Python, tkinter, and C.
 
 <!-- <div class="gallery-box">
   <div class="gallery gallery-columns-2">
