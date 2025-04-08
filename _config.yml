@@ -50,6 +50,11 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  - scope:
+      path: ""
+      type: "resume"
+    values:
+      layout: "resume"
 
 sass:
   sass_dir: _sass
