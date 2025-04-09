@@ -66,9 +66,9 @@
     transform: translate(0);
     aspect-ratio: 4/3;
     border-radius: 12%;
-    width: 500px;
-    height: 500px;
-    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
     background: var(--background-alt-color);
       /* Centering the .page-image container */
     margin: 0 auto; /* Horizontally center the container */
@@ -76,15 +76,18 @@
     display: flex;
     justify-content: center; /* Horizontally centers */
     align-items: center; /* Vertically centers */
-    min-height: 100vh; /* Make sure the parent takes full height of the screen */
+    // min-height: 100vh; /* Make sure the parent takes full height of the screen */
 
     img {
       position: absolute;
       top: 0;
       left: 0;
+      width: 100%;
+      height: 100%;
       // width: 300px;
       // height: 300px;
       object-fit: cover;
+      display: block;
       user-select: none;
     }
 
