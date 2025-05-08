@@ -4,9 +4,8 @@ date: 2024-11-07 08:01:35 +0300
 subtitle: Design & Development
 image: '/images/projects/design/cad-design/BF_View1_100x.jpg'
 ---
-## Furniture Design
 
-### Behind the Design
+## Behind the Design
 
 After encountering frequent online ads for a popular bed frame, I saw an opportunity to recreate a similar product at a fraction of the cost. I independently researched the frame by analyzing reference images, user videos, and online forums where professional carpenters shared build strategies and challenges.
 
@@ -19,4 +18,4 @@ This project reflects my ability to:
 - Communicate complex ideas clearly to both technical and non-technical audiences
 - Share knowledge and contribute to the open-source maker community
 
-View the design files on my[GitHub](https://github.com/micah-e-cole/Bed_Frame){:target="_blank"}.
+View the design files on my [GitHub](https://github.com/micah-e-cole/Bed_Frame){:target="_blank"}.
