@@ -1,5 +1,5 @@
 ---
-title: CAD Product Design
+title: Self-Directed Design & Technical Communication
 date: 2024-11-07 08:01:35 +0300
 subtitle: Design & Development
 image: '/images/projects/design/cad-design/BF_View1_100x.jpg'
@@ -8,8 +8,15 @@ image: '/images/projects/design/cad-design/BF_View1_100x.jpg'
 
 ### Behind the Design
 
-I encountered numerous advertisements for a specific bed frame online and while I do love the look of this frame (hint, you have probably also had this advertised to you as well) I did not want to pay the steep sticker price for one of these beds. 
+After encountering frequent online ads for a popular bed frame, I saw an opportunity to recreate a similar product at a fraction of the cost. I independently researched the frame by analyzing reference images, user videos, and online forums where professional carpenters shared build strategies and challenges.
 
-After researching pictures, videos, and forums where other carpenters discussed their own thoughts/designs for this project, I drew up this design according to the size specifications that would fit a Queen-size mattress. 
+I translated these insights into a custom design tailored to a Queen-size mattress, drafting a detailed model in SketchUp and creating a corresponding cut list in a spreadsheet format. While the physical build is pending, I documented the entire design process and made the files publicly available on GitHub to support other DIY builders.
 
-While I have yet to build this project in the shop, I am very pleased with how it turned out and hope it can prove useful to others who may be interested in building their own. The files (the Sketchup file and cut list spreadsheet) are avaailable on my [GitHub](https://github.com/micah-e-cole/Bed_Frame){:target="_blank"}.
+This project reflects my ability to:
+
+- Rapidly learn new technical skills through self-directed research
+- Convert conceptual designs into precise technical documentation
+- Communicate complex ideas clearly to both technical and non-technical audiences
+- Share knowledge and contribute to the open-source maker community
+
+View the design files on my[GitHub](https://github.com/micah-e-cole/Bed_Frame){:target="_blank"}.
