@@ -6,7 +6,7 @@ permalink: /resume/
 
 ### Summary
 
-I am a sesourceful and multidisciplinary Software Developer with hands-on experience spanning data analysis, automation, mobile development, and embedded systems. Proven ability to analyze and optimize data workflows, create time-saving automation tools, and build custom applications that integrate low-level programming with user-friendly interfaces. Developed iOS applications using Swift and Xcode, leveraging BLE protocol analysis (Wireshark, NRF sniffer) to connect and map sensor data from TPMS devices. Maintains websites using Jekyll and frameworks, and creates binary file translators using C and Python’s Tkinter. Adept at bridging software and hardware integration, with a unique blend of skills in web, desktop, and mobile environments. Eager to apply this diverse toolkit in roles that value innovation, autonomy, and impact.
+Detail-oriented IT/Software Developer with 4+ years of experience in backend engineering, data-driven application design, and collaborative IT support. Proficient in Python and experienced with web frameworks like Flask and Django to build scalable REST APIs. Skilled in writing and optimizing SQL queries. Familiar with AWS services and containerization. Adept at GitHub-based CI/CD deployment workflows and cross-functional communication. Passionate about using automation, modern development practices, and AI-ready infrastructure to improve systems and make information and processes accessible.
 
 ### Work Experience
 
@@ -14,9 +14,10 @@ I am a sesourceful and multidisciplinary Software Developer with hands-on experi
 ###### Nordic Global
 ###### <em><time datetime="2024-12">December 2024</time> - Present | Remote</em>
 <ul>
-    <li>Provided Tier 1 technical support for MyChart users, troubleshooting browser, mobile OS, authentication, and network issues.</li>
-    <li>Developed and maintained support documentation to enhance efficiency and ensure adherence to Standard Operating Procedures (SOPs).</li>
-    <li>Partnered with cybersecurity teams to escalate security-related incidents, ensuring compliance with data privacy and protection policies.</li>
+    <li>Delivered Tier I–II support for MyChart patient portal accounts, password resets, MFA, and general access issues.</li>
+    <li>Triaged incidents in ServiceNow, escalating complex tickets and coordinating resolution with multiple support tiers.</li>
+    <li>Authored internal documentation and knowledge base articles for streamlined troubleshooting.</li>
+    <li>Trained new agents on communication best practices and internal support workflows.</li>
 </ul>
 
 ##### Software Developer & Cloud Technologies
@@ -25,16 +26,9 @@ I am a sesourceful and multidisciplinary Software Developer with hands-on experi
 
 <ul>
     <li>Developed interactive dashboards using JavaScript and Python to visualize key business metrics and improve data analysis.</li>
-    <li>Built automation scripts using JavaScript and Python to streamline data management workflows and reduce errors.</li>
-    <li>Bridged communication between IT teams and executive leadership, ensuring alignment on data security initiatives.</li>
-</ul>
-
-##### Data Analyst
-##### Freelance
-###### <em><time datetime="2023-09">September 2023</time> - <time datetime="2024-12">December 2024</time> | Remote</em>
-<ul>
+    <li>Built automation scripts using JavaScript, Python, and Visual Basic for Applications to streamline data management workflows and reduce errors by up to 50%.</li>
+    <li>Built and deployed backend REST APIs using Flask and Django to support user authentication.</li>
     <li>Delivered data templating and structural organization for timely completion of deliverables.</li>
-    <li>Utilized Python and MS Excel to integrate and structure datasets, improving data efficiency by 30%.</li>
     <li>Created dynamic data visualizations and dashboards in Excel using advanced pivot tables and charting techniques.</li>
 </ul>
 
@@ -50,7 +44,7 @@ I am a sesourceful and multidisciplinary Software Developer with hands-on experi
 ##### The University of Virginia, School of Architecture
 ###### <em><time datetime="2014-01">January 2014</time> - <time datetime="2016-05">May 2016</time> | Charlottesville, VA<em>    
 <ul>
-    <li>Created detailed reports and summaries for leadership to support forecasting and strategic planning efforts.</li>
+    <li>Wrote and maintained complex Oracle SQL queries for administrative systems.</li>
     <li>Developed and optimized workflows for student record management using Excel and internal databases, increasing data processing accuracy and reducing manual entry errors by 25%.</li>
     <li>Collaborated with institutional stakeholders to identify data trends and support evidence-based decisions for admissions strategies and financial aid allocation.</li>
 </ul> 
@@ -145,5 +139,13 @@ I am a sesourceful and multidisciplinary Software Developer with hands-on experi
   <div style="border: 1px solid #ccc; border-radius: 8px; padding: 10px; min-width: 120px; text-align: center;">
     Problem Solving
  </div>
-
+   <div style="border: 1px solid #ccc; border-radius: 8px; padding: 10px; min-width: 120px; text-align: center;">
+    Project Management
+ </div>
+   <div style="border: 1px solid #ccc; border-radius: 8px; padding: 10px; min-width: 120px; text-align: center;">
+    Automation
+ </div>
+   <div style="border: 1px solid #ccc; border-radius: 8px; padding: 10px; min-width: 120px; text-align: center;">
+    Communication
+ </div>
 </div>

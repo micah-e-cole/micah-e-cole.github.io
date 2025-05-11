@@ -33,5 +33,4 @@ Skills Demonstrated:
   - Strong visual communication & technical documentation
   - Translating abstract digital inputs into high-fidelity physical output
   - Focus on user/audience experience and design resonance
-
 {% include swiper.html images=site.data.carpentry_images %}
