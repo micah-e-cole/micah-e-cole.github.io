@@ -66,5 +66,20 @@
   html.light-mode & {
     background-color: #000; // Black for light mode
   }
+  
+  }
+  /* Media Queries for Mobile Devices */
+@media (max-width: 768px) { // Target tablets and smaller devices
+  .swiper {
+    max-width: 90%; // Reduce the width to 90% of the viewport
+    height: 60vh; // Reduce the height for smaller screens
+  }
+}
+
+@media (max-width: 480px) { // Target small mobile devices
+  .swiper {
+    max-width: 100%; // Allow full width for very small screens
+    height: 50vh; // Further reduce the height for small screens
+  }
 }
 }
