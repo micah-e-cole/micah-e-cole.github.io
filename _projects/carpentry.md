@@ -3,6 +3,7 @@ title: Soundwave Art Installation
 date: 2021-05-04 08:01:35 +0300
 subtitle: Project Research & Design
 image: '/images/projects/carpentry/projectFinal.jpg'
+carousel: true
 ---
 ## Soundwave Art Installation
 
@@ -32,42 +33,5 @@ Skills Demonstrated:
   - Strong visual communication & technical documentation
   - Translating abstract digital inputs into high-fidelity physical output
   - Focus on user/audience experience and design resonance
-  
-<div class="gallery-box">
-  <div class="gallery">
-    <figure>
-      <img src="/images/projects/carpentry/soundwave600px.jpg" loading="lazy" alt="Image depicts the soundwaves being isolated for use in the design of the artpiece.">
-      <figcaption> <center><small>A visual depiction of the soundwave.</small></center></figcaption>
-    </figure>
-  </div>
-</div>
 
-<div class="igRow1">
-    <div class="igColumn1">
-        <center>
-          <img src="/images/projects/carpentry/sawFit@0,10x.jpg" alt="Zero-clearance saw insert completed."/>
-          <img src="/images/projects/carpentry/projectP3.jpg" alt="Jig to hold wood against saw blade"/>
-        </center>
-    </div>
-</div>
-<br>
-
-<div class="igRow1">
-  <div class="igColumn1">
-    <center>
-      <img src="/images/projects/carpentry/projectP4.jpg" alt="Thin strips of stock cut and laying on project base against template."/>
-      <img src="/images/projects/carpentry/projectP6.jpg" alt="Soundwave section in progress with template undeneath being used as guidline."/>
-    </center>
-  </div>
-</div>
-<br>
-
-<div class="igRow2">
-  <div class="igColumn2">
-    <center>
-      <img src="/images/projects/carpentry/projectP10.jpg" alt="Project base stained and coated in top coat sealer."/>
-      <img src="/images/projects/carpentry/projectP12.jpg" alt="Completed soundwave mounted on base (base has been stained and sealed)."/>
-    </center>
-  </div>
-</div>
-<br>
+{% include swiper.html images=site.data.carpentry_images %}

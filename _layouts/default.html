@@ -29,6 +29,24 @@
 
   <script src="{{ '/js/scripts.js' | relative_url }}"></script>
   <script src="{{ '/js/common.js' | relative_url }}"></script>
+
+  {% include swiper.html %}
+  <!-- Swiper JS -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      centeredSlides: true,
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+      }
+    });
+  </script>
 </body>
 
 </html>

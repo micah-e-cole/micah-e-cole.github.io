@@ -1,0 +1,70 @@
+/* Swiper Container Wrapper */
+.swiper-container-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; // Full viewport height
+  width: 100%; // Full width
+}
+
+/* Swiper Component */
+.swiper {
+  width: 100%;
+  max-width: 800px; // Limit the maximum width of the Swiper
+  height: auto;
+
+  .swiper-wrapper {
+    display: flex;
+    align-items: center; // Vertically align all slides
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center; // Center content horizontally
+    align-items: center; // Center content vertically
+    width: 100% !important; // Ensure slides take full width
+    height: 80vh; // Adjust height as needed
+    // background-color: #f4f4f4; // Optional background color for slides
+
+    img {
+      display: block !important; // Ensure the image is treated as a block element
+      margin: 0 auto !important; // Center the image horizontally
+      max-width: 100% !important; // Ensure the image scales within the container
+      max-height: 100% !important; // Prevent the image from exceeding the container height
+      object-fit: contain !important; // Maintain aspect ratio and fit within the container
+      align-self: center; // Ensure the image aligns within the Flexbox container
+    }
+  }
+
+/* Swiper Navigation Buttons */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #000; // Default color for light mode
+  z-index: 10;
+
+  // Dark mode styles
+  html.dark-mode & {
+    color: #fff; // White for dark mode
+  }
+
+  // Light mode styles (optional, if different from default)
+  html.light-mode & {
+    color: #000; // Black for light mode
+  }
+}
+
+/* Swiper Pagination Bullets */
+.swiper-pagination-bullet {
+  background-color: #000; // Default color for light mode
+
+  // Dark mode styles
+  html.dark-mode & {
+    background-color: #fff; // White for dark mode
+  }
+
+  // Light mode styles (optional, if different from default)
+  html.light-mode & {
+    background-color: #000; // Black for light mode
+  }
+}
+}

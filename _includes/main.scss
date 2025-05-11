@@ -94,6 +94,10 @@
 @import '3-modules/sections';
 /* >>>>>>>>>>>>>> :: 3.8-Section Subscribe <<<<<<<<<<<<<<< */
 @import '3-modules/section-subscribe';
+/* >>>>>>>>>>>>>> :: 3.x Swiper CDN <<<<<<<<<<<<<<< */
+@import url('https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css');
+/* >>>>>>>>>>>>>> :: 3.x Swiper Custome <<<<<<<<<<<<<<< */
+@import '3-modules/swiper';
 /* >>>>>>>>>>>>>> :: 3.9-Pagination <<<<<<<<<<<<<<< */
 @import '3-modules/pagination';
 /* >>>>>>>>>>>>>> :: 3.10-Footer <<<<<<<<<<<<<<< */
