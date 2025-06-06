@@ -25,7 +25,7 @@ I wanted to reinforce core JavaScript concepts through a project that required r
 - Built a clean and accessible interface using CSS Flexbox to center game content, highlight active states, and provide smooth transitions during gameplay.
 
 #### Recent Updates
-###### Enhanced Logic Handlers
+###### Enhanced Logic Handlers:
 - Updated the backend logic to allow for use of SQLite, replacing the .csv and resource-heavy logic previously handled by app.js
 
 #### Future Development
