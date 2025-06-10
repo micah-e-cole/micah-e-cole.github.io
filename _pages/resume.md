@@ -78,8 +78,8 @@ Versatile Software Engineer with 2+ years of experience in backend development, 
 ##### CompTIA A+, Aug 2024
 ##### ITIL 4 Foundation, Aug 2023
 ##### Certificate in Python Programming – University of Washington (2019)
-
 <br>
+
 ### Education
 
 
@@ -87,20 +87,20 @@ Versatile Software Engineer with 2+ years of experience in backend development, 
 ###### Bachelor of Science (B.S.) Software Development (30 Credits)
 ###### <em><time datetime="2021-11">November 2021</time> - <time datetime="2023-10">October 2023</time>
 ###### <em>Online</em>
-<br style="line-height:2em">
+<br style="line-height:1em">
 
 ##### The University of Mary Washington
 ###### Bachelor of Science (B.S.) Environmental Science
 ###### <em><time datetime="2012-01">January 2012</time> - <time datetime="2013-08">August 2013</time>
 ###### <em>Fredericksburg, VA</em>
-<br style="line-height:6em">
+<br style="line-height:1em">
 
 ##### Germanna Community College
 ###### Associate of Science
 ###### <em><time datetime="2006-09">September 2006</time> - <time datetime="2010-05">May 2010</time>
 ###### <em>Fredericksburg, VA</em>
 
-<br style="line-height:12em">
+<br style="line-height:1em">
 
 ### Skills
 
