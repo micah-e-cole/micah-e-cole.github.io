@@ -6,45 +6,52 @@ permalink: /resume/
 
 ### Summary
 
-Detail-oriented IT/Software Developer with 4+ years of experience in backend engineering, data-driven application design, and collaborative IT support. Proficient in Python and experienced with web frameworks like Flask and Django to build scalable REST APIs. Skilled in writing and optimizing SQL queries. Familiar with AWS services and containerization. Adept at GitHub-based CI/CD deployment workflows and cross-functional communication. Passionate about using automation, modern development practices, and AI-ready infrastructure to improve systems and make information and processes accessible.
+Versatile Software Engineer with 2+ years of experience in backend development, cloud infrastructure, and live service support. Demonstrated ability to build scalable, modular applications and automate infrastructure using modern DevOps tools. Proven success collaborating cross-functionally with design, QA, and project management teams. Passionate about creating engaging user experiences and contributing to robust engineering cultures with a focus on documentation, testing, and performance.
 
 ### Work Experience
-
-##### Patient Portal Service Desk
-###### Nordic Global
-###### <em><time datetime="2024-12">December 2024</time> - Present | Remote</em>
-<ul>
-    <li>Delivered Tier I–II support for MyChart patient portal accounts, password resets, MFA, and general access issues.</li>
-    <li>Triaged incidents in ServiceNow, escalating complex tickets and coordinating resolution with multiple support tiers.</li>
-    <li>Authored internal documentation and knowledge base articles for streamlined troubleshooting.</li>
-    <li>Trained new agents on communication best practices and internal support workflows.</li>
-</ul>
 
 ##### Software Developer & Cloud Technologies
 ##### Freelance
 ###### <em><time datetime="2023-09">September 2023</time> - Present | Remote</em>
 
 <ul>
-    <li>Developed interactive dashboards using JavaScript and Python to visualize key business metrics and improve data analysis.</li>
-    <li>Built automation scripts using JavaScript, Python, and Visual Basic for Applications to streamline data management workflows and reduce errors by up to 50%.</li>
-    <li>Built and deployed backend REST APIs using Flask and Django to support user authentication.</li>
-    <li>Delivered data templating and structural organization for timely completion of deliverables.</li>
-    <li>Created dynamic data visualizations and dashboards in Excel using advanced pivot tables and charting techniques.</li>
+    <li>Developed and deployed a modular full-stack web application using JavaScript and Express; enhanced performance and maintainability with containerized environments via Docker and Azure deployments.</li>
+    <li>Built out infrastructure automation using Terraform, focusing on scalability, modularity, and DevOps best practices.</li>
+    <li>Created and debugged production-level features; ensured responsiveness and cross-platform compatibility using API integrations.</li>
+    <li>Contributed to Project Sidewalk, improving accessibility tools; collaborated through GitHub Actions and maintained deployment pipelines.</li>
+    <li>Used Python and shell scripting to automate local development tasks and transform log data into human-readable formats.</li>
 </ul>
 
-##### Electronics Repair Lead  
+##### Patient Portal Service Desk
+###### Nordic Global
+###### <em><time datetime="2024-12">December 2024</time> -  - <time datetime="2025-06">June 2025</time> | Remote</em>
+<ul>
+    <li>Resolved live service issues and support tickets via ServiceNow, improving resolution times and knowledge base documentation.</li>
+    <li>Authored internal technical documentation to support automation and knowledge transfer across support and engineering teams.</li>
+    <li>Acted as technical liaison between users and system teams to identify, report, and troubleshoot live integration bugs.</li>
+</ul>
+
+##### Volunteer Technology Consultant
+##### Kids Rank 501(c)(3)
+###### <em>F<time datetime="2024-02">June 2016</time> - <time datetime="2024-10">September 2023</time> | Remote<em>                                                              
+<ul>
+    <li>Automated workflows for multiple departments using JavaScript and Google Apps Script, supporting live data use in operations.</li>
+    <li>Facilitated stakeholder communication to identify functional requirements and improve live system usage.</li>
+</ul>
+
+##### IT Technician
 ##### Freelance
 ###### <em>F<time datetime="2016-06">June 2016</time> - <time datetime="2023-09">September 2023</time> | Remote<em>                                                              
 <ul>
-    <li>Tracked IT hardware components for repair, maintenance, and disposal, ensuring compliance with asset lifecycle management best practices.</li>
-    <li>Communicated technical solutions to non-technical stakeholders, ensuring clarity and actionable outcomes.</li>
+    <li>Provided technical support for system optimization, software updates, and integration issues across Linux and Windows environments.</li>
+    <li>Scripted solutions in Bash/Python to automate routine system tasks and reduce time-to-resolution for recurring issues.</li>
 </ul>
 
 ##### Graduate Admissions & Financial Aid Specialist   
 ##### The University of Virginia, School of Architecture
 ###### <em><time datetime="2014-01">January 2014</time> - <time datetime="2016-05">May 2016</time> | Charlottesville, VA<em>    
 <ul>
-    <li>Wrote and maintained complex Oracle SQL queries for administrative systems.</li>
+    <li>Wrote and maintained Oracle SQL queries for administrative systems.</li>
     <li>Developed and optimized workflows for student record management using Excel and internal databases, increasing data processing accuracy and reducing manual entry errors by 25%.</li>
     <li>Collaborated with institutional stakeholders to identify data trends and support evidence-based decisions for admissions strategies and financial aid allocation.</li>
 </ul> 
@@ -64,8 +71,16 @@ Detail-oriented IT/Software Developer with 4+ years of experience in backend eng
     <li>Addressed a gap in Kali Linux distributions, which no longer natively include tools for wtmp file analysis.</li>
 </ul> 
 
-### Education
+### Certifications
+<br>
 
+##### CompTIA Security+, In Progress (Anticipated Aug 2025)
+##### CompTIA A+, Aug 2024
+##### ITIL 4 Foundation, Aug 2023
+##### Certificate in Python Programming – University of Washington (2019)
+
+### Education
+<br>
 
 ##### Western Governors Univeristy
 ###### Bachelor of Science (B.S.) Software Development (30 Credits)
