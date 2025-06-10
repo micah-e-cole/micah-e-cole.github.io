@@ -72,13 +72,14 @@ Versatile Software Engineer with 2+ years of experience in backend development, 
 </ul> 
 
 ### Certifications
-<br>
+
 
 ##### CompTIA Security+, In Progress (Anticipated Aug 2025)
 ##### CompTIA A+, Aug 2024
 ##### ITIL 4 Foundation, Aug 2023
 ##### Certificate in Python Programming – University of Washington (2019)
 
+<br>
 ### Education
 <br>
 
