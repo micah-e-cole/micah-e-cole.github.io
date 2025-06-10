@@ -9,5 +9,3 @@ Hey there, thanks for stopping by! I’m Micah, and I’m all about using techno
 I strongly believe in giving back to the community that has supported me along the way. I dedicate time to volunteering, sharing knowledge in forums, and contributing to open-source projects. Collaborating with fellow professionals and helping others grow brings me a sense of purpose and connection.
 
 My journey in technology has been a path of growth, learning, and continuous improvement. I’m grateful for every opportunity to solve problems, every challenge that has sharpened my skills, and every success that motivates me to keep pushing forward. With a sense of excitement and dedication, I’m always looking ahead to the next chapter in my tech journey.
-
-***

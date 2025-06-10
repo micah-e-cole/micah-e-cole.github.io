@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+<div class="container resume">
+
+  <div class="resume-summary">
+    <h2>Summary</h2>
+    <p>{{ site.data.resume_data.summary }}</p>
+  </div>
+
+  <div class="work-experience">
+    <h2>Work Experience</h2>
+    {% for job in site.data.resume_data.work-experience %}
+    <div class="work-entry">
+      <div class="job-title"><b>{{ job.title }}</b></div>
+      <div class="employer">{{ job.employer }}</div>
+      <div class="location">{{ job.location }}</div>
+      <div class="job-dates"><span class="date-line">{{ job.dates }}</span></div>
+      <div class="job-description">
+        <ul>
+          {% for bullet in job.description %}
+          <li>{{ bullet }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="projects">
+    <h2>Notable Projects</h2>
+    {% for project in site.data.resume_data.projects %}
+    <div class="project-entry">
+      <div class="project-title"><b>{{ project.title }}</b></div>
+      <div class="project-dates"><span class="date-line">{{ project.dates }}</span></div>
+      <div class="project-description">
+        <ul>
+          {% for bullet in project.description %}
+          <li>{{ bullet }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="certifications">
+    <h2>Certifications</h2>
+    {% for cert in site.data.resume_data.certifications %}
+    <div class="cert-entry">
+      <div class="cert-title"><b>{{ cert.title }}</b></div>
+      <div class="cert-dates"><span class="date-line">{{ cert.dates }}</span></div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="education">
+    <h2>Education</h2>
+    {% for edu in site.data.resume_data.education %}
+    <div class="edu-entry">
+        <div class="degree"><b>{{ edu.degree }}</b></div>
+        <div class="institution">{{ edu.school }}</div>
+        <div class="edu-location">{{ edu.location }}</div>
+        <div class="edu-dates"><span class="date-line">{{ edu.dates }}</span></div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="skills">
+    <h2>Skills</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+      {% for skill in site.data.resume_data.skills %}
+      <div style="border: 1px solid #ccc; border-radius: 8px; padding: 10px; min-width: 120px; text-align: center;">
+        {{ skill }}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+</div>

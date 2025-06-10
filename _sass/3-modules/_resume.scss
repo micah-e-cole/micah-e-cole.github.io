@@ -1,0 +1,170 @@
+.resume {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  // General heading styles
+  h3 {
+    margin-top: 2rem;
+    font-size: 1.75rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.25rem;
+  }
+
+  h5, h6 {
+    margin-bottom: 0.3em;
+    font-weight: 500;
+  }
+
+  em, time {
+    display: block;
+    font-style: italic;
+    margin-bottom: 0.25em;
+  }
+
+  p {
+    margin-bottom: 0.75em;
+  }
+
+  .section-spacing {
+    margin-bottom: 1.25em;
+  }
+
+  // Print-friendly tweaks
+  @media print {
+    a {
+      color: black;
+      text-decoration: none;
+    }
+  }
+
+  // Section-specific styles
+  .resume-summary {
+    font-size: 1.05rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+
+  .work-experience {
+    margin-bottom: 2.5rem;
+
+    .work-entry {
+      margin-bottom: 2.5rem;
+
+      .job-title {
+        font-weight: bold;
+        font-size: 1.0rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .employer {
+        font-size: 0.95rem;
+        margin-bottom: 0.25rem;
+      }
+
+      .job-dates .date-line {
+        font-size: 0.9rem;
+        color: black;
+        margin-bottom: 0.5rem;
+        display: block;
+      }
+
+      .job-description {
+        margin-top: 0.5rem;
+
+        ul {
+          padding-left: 1.25rem;
+          list-style-type: disc;
+
+          li {
+            font-size: 1.00rem;
+            margin-bottom: 0.4rem;
+          }
+        }
+      }
+    }
+  }
+
+  .projects {
+    margin-bottom: 2rem;
+
+    .project-entry {
+      margin-bottom: 1.25rem;
+
+      .project-title {
+        font-weight: bold;
+        font-size: 1.05rem;
+      }
+
+      .project-dates .date-line {
+        font-size: 0.9rem;
+        color: black;
+        margin-bottom: 0.25rem;
+      }
+
+      .project-description ul {
+        padding-left: 1.25rem;
+
+        li {
+          font-size:1.00rem;
+          margin-bottom: 0.4rem;
+        }
+      }
+    }
+  }
+
+  .certifications {
+    margin-bottom: 2rem;
+
+    .cert-entry {
+      margin-bottom: 1rem;
+
+      .cert-title {
+        font-weight: bold;
+      }
+
+      .cert-dates {
+        font-size: 0.9rem;
+        color: black;
+        margin-top: 0.2rem;
+      }
+    }
+  }
+
+  .education {
+    margin-bottom: 2rem;
+
+    .edu-entry {
+      margin-bottom: 1.25rem;
+
+      .edu-title {
+        font-weight: bold;
+        font-size: 1.05rem;
+      }
+
+      .edu-degree {
+        font-style: italic;
+        margin-bottom: 0.25rem;
+      }
+
+      .edu-location {
+        font-size: 0.95rem;
+        margin-bottom: 0.25rem;
+      }
+      .edu-dates {
+        font-size: 0.9rem;
+        color: black;
+      }
+    }
+  }
+
+  .skills {
+    margin-bottom: 2rem;
+
+    div {
+      font-size: 0.95rem;
+    }
+
+    div > div {
+      margin-bottom: 0.5rem;
+    }
+  }
+}

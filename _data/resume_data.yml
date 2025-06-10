@@ -1,0 +1,108 @@
+title: Resume
+
+summary: >
+  Versatile Software Engineer with 2+ years of experience in backend development, cloud infrastructure, and live service support.
+  Demonstrated ability to build scalable, modular applications and automate infrastructure using modern DevOps tools.
+  Proven success collaborating cross-functionally with design, QA, and project management teams.
+  Passionate about creating engaging user experiences and contributing to robust engineering cultures with a focus on documentation, testing, and performance.
+
+work-experience:
+  - title: Software Developer & Cloud Technologies
+    employer: Freelance || Remote
+    dates: September 2023 – Present
+    description:
+      - Developed and deployed a modular full-stack web application using JavaScript and Express.
+      - Built out infrastructure automation using Terraform.
+      - Used Python and shell scripting to automate development tasks.
+
+  - title: Patient Portal Service Desk
+    employer: Nordic Global || Remote
+    dates: December 2024 – June 2025
+    description:
+      - Resolved live service issues and tickets via ServiceNow.
+      - Authored internal technical documentation.
+      - Acted as liaison between users and system teams.
+
+  - title: Volunteer Technology Consultant
+    employer: Kids Rank 501(c)(3) || Remote
+    dates: February 2024 – October 2024
+    description:
+      - Automated workflows with JavaScript and Google Apps Script.
+      - Facilitated stakeholder communication.
+
+  - title: IT Technician
+    employer: Freelance || Remote
+    dates: June 2016 – September 2023
+    description:
+      - Provided IT support and troubleshooting for various clients.
+      - Developed technical documentation and user guides.
+      - Collaborated with clients to understand their needs and deliver tailored solutions.
+projects:
+  - title: iOS Developer
+    dates: September 2024 - Present
+    description:
+    - Designing and developing an iOS and watchOS application using Xcode and Swift to assist wheelchair users in monitoring their tire pressure.
+    - Integrated Bluetooth Low Energy (BLE) communication to connect with low-cost tire pressure sensors, providing real-time data updates.
+
+  - title: DevSecOps Interpreting wtmp Files
+    dates: February 2025 - Present
+    description:
+    - Developed a graphical user interface (GUI) using Python, tkinter, and C to analyze and interpret wtmp files for cybersecurity auditing.
+    - Addressed a gap in Kali Linux distributions, which no longer natively include tools for wtmp file analysis.
+
+certifications:
+  - title: CompTIA Security+ (In Progress)
+    dates: August 2025
+
+  - title: CompTIA A+
+    dates: August 2024
+
+  - title: ITIL 4 Foundation
+    dates: August 2023
+  
+education:
+  - degree: Bachelor of Science in Software engineering
+    institution: Western Governors University
+    location: Remote
+    dates: November 2022 - November 2023
+  
+  - degree: Bachelor of Science in Environmental Science
+    institution: University of Mary Washington
+    location: Fredericksburg, VA (USA)
+    dates: January 2012 - August 2013
+
+  - degree: Associate of Science
+    institution: Germanna Community College
+    location: Fredericksburg, VA (USA)
+    dates: September 2006 - May 2010
+
+skills:
+  - Frontend Development
+  - Backend Development
+  - Cloud Infrastructure
+  - DevOps Automation
+  - Python
+  - JavaScript
+  - Shell Scripting
+  - Xcode
+  - Swift
+  - Express.js
+  - React.js
+  - Node.js
+  - Google Apps Script
+  - Terraform
+  - ServiceNow
+  - Technical Documentation
+  - Cross-Functional Collaboration
+  - User Experience Design
+  - IT Support & Troubleshooting
+  - Agile Methodologies
+  - ITIL Framework
+  - Cybersecurity Awareness
+  - iOS Development
+  - Bluetooth Low Energy (BLE)
+  - Graphical User Interface Development
+  - Cybersecurity Auditing
+  - Wtmp File Analysis
+  - Stakeholder Communication
+  - Workflow Automation
