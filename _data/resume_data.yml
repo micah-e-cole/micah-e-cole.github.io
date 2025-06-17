@@ -29,6 +29,13 @@ work-experience:
     description:
       - Automated workflows with JavaScript and Google Apps Script.
       - Facilitated stakeholder communication.
+  
+  - title: Technical Operations Coordinator
+    employer: Inside Out Inspection Services || Seattle, WA (USA)
+    dates: June 2019 – June 2020
+    description:
+      - Maintained and updated the company website, resolved system and form issues, and served as the primary point of contact for technical troubleshooting
+      - Rapidly learned and self-trained on the company’s CRM and reporting platform, becoming the go-to expert for scheduling, client coordination, and compliance tracking within weeks of onboarding
 
   - title: IT Technician
     employer: Freelance || Remote
@@ -37,6 +44,15 @@ work-experience:
       - Provided IT support and troubleshooting for various clients.
       - Developed technical documentation and user guides.
       - Collaborated with clients to understand their needs and deliver tailored solutions.
+  
+  - title: Graduate Admissions & Financial Aid Specialist
+    employer: The University of Virginia || Charlottesville, VA (USA)
+    dates: January 2014 – May 2016
+    description:
+      - Developed and maintained reporting systems to track admissions metrics and financial aid disbursements.
+      - Analyzed data to identify trends and improve admissions strategies (using Python, VBA, and SQL).
+      - Collaborated across departments to align reporting needs with data systems, ensuring timely updates and issue resolution.
+
 projects:
   - title: iOS Developer
     dates: September 2024 - Present
