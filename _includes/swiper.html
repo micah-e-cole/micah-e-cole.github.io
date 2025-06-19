@@ -3,7 +3,7 @@
         <div class="swiper-wrapper">
             {% for image in include.images %}
             <div class="swiper-slide">
-                <img src="{{ image.src }}" alt="{{ image.alt }}" />
+                <img src="{{ image.src }}" alt="{{ image.alt }}" title="{{ image.alt }}" />
             </div>
             {% endfor %}
         </div>
