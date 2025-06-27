@@ -1,7 +1,7 @@
 ---
-title: JavaScript Programming
+title: Continuous Development/Continuous Integration (CI/CD) With JavaScript
 date: 2021-10-19 08:01:35 +0300
-subtitle: Word Guessing Game
+subtitle: Word Guessing Game Project Management
 image: '/images/projects/design/webdev/webapp.png'
 ---
 **Role:** Developer<br>

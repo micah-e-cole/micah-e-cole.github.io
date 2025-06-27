@@ -1,7 +1,7 @@
 ---
-title: Smart Tire Pressure Monitor for Manual Wheelchairs
+title: "User Insight to iOS App: A Smart Tire Pressure Monitor for Mobility Devices"
 date: 2025-04-01 08:01:35 +0300
-subtitle: Development
+subtitle: Smart Tire Pressure Monitor for Manual Wheelchairs
 image: '/images/projects/design/apps/tpms/wheelchairFrontView.jpg'
 ---
 **Role:** Developer & End-User Researcher<br>

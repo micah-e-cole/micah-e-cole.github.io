@@ -1,5 +1,5 @@
 ---
-title: UX/UI Development
+title: Visual Storytelling With User Experience/User Interface Design (Educational Project)
 date: 2023-06-25 08:01:35 +0300
 subtitle: Web Design
 image: '/images/projects/ux-ui/homepage.jpg'

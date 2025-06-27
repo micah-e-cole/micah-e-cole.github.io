@@ -1,7 +1,7 @@
 ---
-title: Self-Directed Design & Technical Communication
+title: Designing Solutions & Technical Communication
 date: 2024-11-07 08:01:35 +0300
-subtitle: Design & Development
+subtitle: Designing a cost-effective product without sacrificing form
 image: '/images/projects/design/cad-design/BF_View1_100x.jpg'
 ---
 
