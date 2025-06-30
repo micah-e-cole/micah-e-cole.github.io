@@ -1,41 +1,42 @@
 title: Resume
 
 summary: >
-  Versatile Software Engineer with 2+ years of experience in backend development, cloud infrastructure, and live service support.
-  Demonstrated ability to build scalable, modular applications and automate infrastructure using modern DevOps tools.
-  Proven success collaborating cross-functionally with design, QA, and project management teams.
-  Passionate about creating engaging user experiences and contributing to robust engineering cultures with a focus on documentation, testing, and performance.
+  Detail-oriented technologist and problem-solver with hands-on experience in backend development, infrastructure automation, and cybersecurity tooling. Skilled in deploying and securing containerized applications, managing cloud-based workflows, and supporting mission-critical systems. Proven track record across freelance, nonprofit, and healthcare settings, with a focus on system reliability, security-conscious design, and cross-functional collaboration. Passionate about building inclusive tech solutions, with projects spanning BLE-enabled IoT apps to Linux-based security tools.
 
 work-experience:
   - title: Software Developer & Cloud Technologies
     employer: Freelance || Remote
     dates: September 2023 – Present
     description:
-      - Developed and deployed a modular full-stack web application using JavaScript and Express.
-      - Built out infrastructure automation using Terraform.
-      - Used Python and shell scripting to automate development tasks.
+      - Developed and containerized full-stack web apps using Node.js, Express, and Docker
+      - Automated cloud infrastructure provisioning using Terraform and shell scripting
+      - Built internal Python tools to streamline developer workflows and improve deployment consistency
+      - Integrated security scanning (Trivy) into CI pipelines to detect misconfigurations early
 
-  - title: Patient Portal Service Desk
+  - title: IT User Support Associate III
     employer: Nordic Global || Remote
     dates: December 2024 – June 2025
     description:
-      - Resolved live service issues and tickets via ServiceNow.
-      - Authored internal technical documentation.
-      - Acted as liaison between users and system teams.
+      - Resolved MyChart and patient-facing service issues using ServiceNow and Epic
+      - Served as front-line technical support for a large healthcare user base, focusing on secure user access
+      - Wrote and maintained internal documentation for incident response and user workflows
+      - Acted as a bridge between patients and backend support teams, helping triage live service disruptions
 
   - title: Volunteer Technology Consultant
     employer: Kids Rank 501(c)(3) || Remote
     dates: February 2024 – October 2024
     description:
-      - Automated workflows with JavaScript and Google Apps Script.
-      - Facilitated stakeholder communication.
+      - Automated internal workflows using Google Apps Script and JavaScript, reducing manual admin time
+      - Streamlined internal operations and improved data organizition for a nonprofit focused on youth development
+      - Delivered modular, low-maintenance tools for ongoing use by non-technical staff
   
   - title: Technical Operations Coordinator
     employer: Inside Out Inspection Services || Seattle, WA (USA)
     dates: June 2019 – June 2020
     description:
-      - Maintained and updated the company website, resolved system and form issues, and served as the primary point of contact for technical troubleshooting
-      - Rapidly learned and self-trained on the company’s CRM and reporting platform, becoming the go-to expert for scheduling, client coordination, and compliance tracking within weeks of onboarding
+      - Managed and maintained internal systems, website, and reporting tools
+      - Rapidly onboarded into legacy CRM and transformed reporting process for compliance tracking
+      - Became internal go-to for troubleshooting, scheduling automation, and operational efficiency
 
   - title: IT Technician
     employer: Freelance || Remote
@@ -95,11 +96,11 @@ education:
 skills:
   - Frontend Development
   - Backend Development
-  - Cloud Infrastructure
-  - DevOps Automation
+  - Cloud Infrastructure (AWS, GCP)
+  - DevOps Automation CI/CD
   - Python
   - JavaScript
-  - Shell Scripting
+  - Bash
   - Xcode
   - Swift
   - Express.js
@@ -109,16 +110,13 @@ skills:
   - Terraform
   - ServiceNow
   - Technical Documentation
-  - Cross-Functional Collaboration
-  - User Experience Design
+  - Design (UX/UI)
   - IT Support & Troubleshooting
-  - Agile Methodologies
   - ITIL Framework
-  - Cybersecurity Awareness
+  - Cybersecurity
   - iOS Development
   - Bluetooth Low Energy (BLE)
-  - Graphical User Interface Development
-  - Cybersecurity Auditing
-  - Wtmp File Analysis
-  - Stakeholder Communication
+  - Linux
   - Workflow Automation
+  - Site Reliability Engineering (SRE)
+  - Incident Response
