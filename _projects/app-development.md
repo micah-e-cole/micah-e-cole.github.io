@@ -14,15 +14,16 @@ As someone who spent many years as a manual wheelchair user, I was regularly fac
 This project was born out of a desire to create an affordable, accessible alternative that integrates with off-the-shelf BLE tire pressure sensors and delivers real-time pressure data directly to a custom iOS app and Apple Watch.
 
 #### Development Journey:
-###### User Centered Design
+
+##### User Centered Design
 - Anchored in firsthand experience of accessibility gaps and daily friction points
 - Designed for people who need frequent tire monitoring without recurring costs or tech barriers<br><br>
-###### BLE Sensor Integration
+##### BLE Sensor Integration
 - Researched Bluetooth Low Energy (BLE) sensor protocols from bike/car pressure caps
 - Reverse-engineering proprietary data formats to enable open interoperability
 - Investigating compatibility with GATT services for real-time pressure readings
     <br><br>
-###### App & WatchOS Development
+##### App & WatchOS Development
 - Learning Swift and Xcode for native iOS development
 - Building a minimalist UI to show real-time PSI readings, sensor status, and battery life
 - Future implementation: Apple Watch support for quick-glance pressure checks on the go

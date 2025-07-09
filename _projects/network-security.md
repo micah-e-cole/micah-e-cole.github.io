@@ -10,13 +10,13 @@ As part of my hands-on learning in Network and IT Security, I identified a gap i
 After looking in to this matter to see what others had tried, I decided to solve this by creating a tool to help me. I designed and built a [cross-platform GUI tool]( https://github.com/micah-e-cole/Network-Security-Tools) that simplifies the translation process — allowing users to select a wtmp file and convert it via a visual interface, without relying on complex terminal commands. 
 
 #### Technical Breakdown:
-###### GUI Interface Development
+##### GUI Interface Development
 - Developed a lightweight graphical interface using Python and Tkinter, enabling intuitive user interaction
 - File-picker dialog allows users to select log files for analysis<br><br>
-###### Backend Processing Logic
+##### Backend Processing Logic
 - Leveraged Python-C bindings and native Linux system tools to parse binary .wtmp logs
 - Integrated last and utmpdump system commands for decoding login records<br><br>
-###### Security Context
+##### Security Context
 - Built specifically for Kali Linux and other Linux distros used in cybersecurity
 - Enables incident responders and security students to explore user login/logout events, session duration, and terminal usage
 

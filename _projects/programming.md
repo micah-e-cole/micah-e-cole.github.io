@@ -25,7 +25,7 @@ The project reinforced core JavaScript concepts like conditional logic, dynamic 
 - Built a clean and accessible interface using CSS Flexbox to center game content, highlight active states, and provide smooth transitions during gameplay.
 
 #### Recent Enhancements
-###### CI/CD Integration:
+##### CI/CD Integration:
 - Introduced GitHub Actions for continuous integration and automated security scanning during the build process.
 - Implemented conditional deployment rules: containers flagged with HIGH or CRITICAL vulnerabilities are prevented from deploying.
 ###### Container Security:
@@ -35,12 +35,12 @@ The project reinforced core JavaScript concepts like conditional logic, dynamic 
 - Replaced .csv-based word handling with a lightweight SQLite backend, improving efficiency and maintainability.
 
 #### Future Development
-###### UI Accessibility:
+##### UI Accessibility:
 - Redesign interface components to improve screen reader compatibility and keyboard navigation.
 
-###### Deployment Pipeline:
+##### Deployment Pipeline:
 - Extend infrastructure as code (IaC) with Terraform for provisioning.
 - Deploy on Azure for scalable cloud hosting.
 
-###### User Data and Stats:
+##### User Data and Stats:
 - Track stats and session data via localStorage or server-side persistence for personalized feedback.
