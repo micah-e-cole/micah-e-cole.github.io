@@ -42,6 +42,48 @@
     margin-bottom: 2rem;
     line-height: 1.6;
   }
+  
+  .earlier-roles {
+        margin-bottom: 2.5rem;
+
+    .work-entry {
+      margin-bottom: 2.5rem;
+
+      .job-title {
+        font-weight: bold;
+        font-size: 1.0rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .employer {
+        font-size: 0.95rem;
+        margin-bottom: 0.25rem;
+      }
+
+      .job-dates .date-line {
+        font-size: 0.9rem;
+        color: black;
+        margin-bottom: 0.5rem;
+        display: block;
+      }
+
+      .job-description {
+        margin-top: 0.5rem;
+
+        ul {
+          padding-left: 1.25rem;
+          list-style-type: disc;
+
+          li {
+            font-size: 1.00rem;
+            margin-bottom: 0.4rem;
+          }
+        }
+      }
+    }
+  }
+
+  }
 
   .work-experience {
     margin-bottom: 2.5rem;

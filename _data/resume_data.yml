@@ -1,12 +1,12 @@
 title: Resume
 
 summary: >
-  Detail-oriented technologist and problem-solver with hands-on experience in backend development, infrastructure automation, and cybersecurity tooling. Skilled in deploying and securing containerized applications, managing cloud-based workflows, and supporting mission-critical systems. Proven track record across freelance, nonprofit, and healthcare settings, with a focus on system reliability, security-conscious design, and cross-functional collaboration. Passionate about building inclusive tech solutions, with projects spanning BLE-enabled IoT apps to Linux-based security tools.
+  Enterprise IT Support Technician with 5+ years of experience delivering Tier 1–2 technical support across Windows, macOS, iOS, and Android environments. Skilled in troubleshooting hardware, software, AV/VC systems, printers, peripherals, and network connectivity. Experienced with ServiceNow, Office365, Google Workspace, and supporting end-user devices in corporate and hybrid environments. Known for exceptional customer service, clear communication, and commitment to timely resolution and continuous learning.
 
 work-experience:
   - title: Software Developer & Cloud Technologies
     employer: TBT Collective || Remote
-    dates: September 2023 – December 2024
+    dates: September 2023 – Present
     description:
       - Developed and containerized full-stack web apps using Node.js, Express, and Docker
       - Automated cloud infrastructure provisioning using Terraform and shell scripting
@@ -21,14 +21,6 @@ work-experience:
       - Served as front-line technical support for a large healthcare user base, focusing on secure user access
       - Wrote and maintained internal documentation for incident response and user workflows
       - Acted as a bridge between patients and backend support teams, helping triage live service disruptions
-
-  - title: Volunteer Technology Consultant
-    employer: Kids Rank 501(c)(3) || Remote
-    dates: February 2024 – October 2024
-    description:
-      - Automated internal workflows using Google Apps Script and JavaScript, reducing manual admin time
-      - Streamlined internal operations and improved data organizition for a nonprofit focused on youth development
-      - Delivered modular, low-maintenance tools for ongoing use by non-technical staff
   
   - title: Technical Operations Coordinator
     employer: Inside Out Inspection Services || Seattle, WA (USA)
@@ -37,7 +29,8 @@ work-experience:
       - Managed and maintained internal systems, website, and reporting tools
       - Rapidly onboarded into legacy CRM and transformed reporting process for compliance tracking
       - Became internal go-to for troubleshooting, scheduling automation, and operational efficiency
-
+  
+earlier-roles:
   - title: IT Technician
     employer: Freelance || Remote
     dates: June 2016 – September 2023
@@ -45,7 +38,7 @@ work-experience:
       - Provided IT support and troubleshooting for various clients.
       - Developed technical documentation and user guides.
       - Collaborated with clients to understand their needs and deliver tailored solutions.
-  
+
   - title: Graduate Admissions & Financial Aid Specialist
     employer: The University of Virginia || Charlottesville, VA (USA)
     dates: January 2014 – May 2016
