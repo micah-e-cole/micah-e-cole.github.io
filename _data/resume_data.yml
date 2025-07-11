@@ -60,6 +60,12 @@ projects:
     - Developed a graphical user interface (GUI) using Python, tkinter, and C to analyze and interpret wtmp files for cybersecurity auditing.
     - Addressed a gap in Kali Linux distributions, which no longer natively include tools for wtmp file analysis.
 
+  - title: Process Automation
+    dates: February 2025 - Present
+    description:
+    - Developed scripts to automate desktop setup, software updates, and log collection.
+    - Automation: Automated builds and deployments (GitHub Actions, Docker) — transferable scripting/automation skill.
+
 certifications:
   - title: CompTIA Security+ (In Progress)
     dates: August 2025
