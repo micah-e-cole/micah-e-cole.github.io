@@ -17,8 +17,8 @@ menu_settings:
       url: '/about/'
     - title: 'Projects'
       url: '/projects/'
-    - title: 'Resume'
-      url: '/resume/'
+    # - title: 'Resume'
+    #   url: '/resume/'
 
 #-------------------------------
 # Author Settings

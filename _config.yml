@@ -59,3 +59,7 @@ defaults:
 sass:
   sass_dir: _sass
   style: compressed
+
+exclude:
+  - resume.md
+  - _data/resume_data.yml
