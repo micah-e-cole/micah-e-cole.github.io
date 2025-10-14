@@ -2,13 +2,7 @@
 title: "Parsely: A Cross-Platform Text Search Utility Built in Python"
 date: 2025-10-14 09:15:00 +0300
 subtitle: Desktop Utility for Multi-Format Text Search and Data Review
-image: '/images/projects/parsely/parselyAppScreenshot_50x.png'
-image10x: '/images/projects/parsely/parselyAppScreenshot_10x.jpg'
-image25x: '/images/projects/parsely/parselyAppScreenshot_25x.jpg'
-image75x: '/images/projects/parsely/parselyAppScreenshot_75x.jpg'
-image100x: '/images/projects/parsely/parselyAppScreenshot_100x.jpg'
-custom_image_style: "max-width:75%;object-fit:contain;height:auto;border-radius:8px;margin:1.5rem auto;display:block;"
----
+image: '/images/projects/parsely/parsely.png'
 ---
 **Role:** Developer & Designer<br>
 **Status:** Completed (v1.0)<br>
