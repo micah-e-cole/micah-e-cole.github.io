@@ -7,6 +7,8 @@ image10x: '/images/projects/parsely/parselyAppScreenshot_10x.jpg'
 image25x: '/images/projects/parsely/parselyAppScreenshot_25x.jpg'
 image75x: '/images/projects/parsely/parselyAppScreenshot_75x.jpg'
 image100x: '/images/projects/parsely/parselyAppScreenshot_100x.jpg'
+custom_image_style: "max-width:75%;object-fit:contain;height:auto;border-radius:8px;margin:1.5rem auto;display:block;"
+---
 ---
 **Role:** Developer & Designer<br>
 **Status:** Completed (v1.0)<br>
