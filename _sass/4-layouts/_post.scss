@@ -456,85 +456,36 @@
 /* === Custom Modifier: Contained project image (e.g., Parsely) === */
 .post-image--contain,
 .page-image--contain {
-  aspect-ratio: auto;
-  width: 75%;
-  height: auto;
-  margin: 1.5rem auto;
-  border-radius: 8px;
+  /* general container sizing for contained images */
+  width: auto;
+  max-width: 420px;      /* limit frame width for icons */
+  margin: 1.5rem auto;   /* center and add vertical spacing */
   overflow: visible;
-  background: none;
+  border-radius: 8px;
+  display: block;        /* not a flex container here */
 
-  img {
-    position: static;
+  .post-image,
+  .page-image {
     width: 100%;
-    height: auto;
-    object-fit: contain;
-    display: block;
-  }
-
-  @media (max-width: $mobile) {
-    width: 90%;
-  }
-}
-
-/* keep generic post-image for posts */
-.post-image {
-  position: relative;
-  aspect-ratio: 4/3;
-  border-radius: 12%;
-  width: 50%;
-  height: 50%;
-  overflow: hidden;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    user-select: none;
-  }
-}
-
-/* project-header — independent from post-image */
-.project-header {
-  width: 100%;
-  margin: 0 auto 1.5rem;
-  display: flex;
-  justify-content: center;
-
-  /* limit the visual size of project header images */
-  .post-image {
-    width: min(900px, 75%); /* sets width to 75% but never larger than 900px */
-    max-width: 100%;
     height: auto;
     aspect-ratio: auto;
     overflow: visible;
-    border-radius: 8px;
-
-    img {
-      position: static;
-      display: block;
-      width: 100%;
-      height: auto;
-      object-fit: contain; /* show full image, prevent overflow */
-      max-width: 100%;
-    }
+    border-radius: inherit;
   }
 
-  /* support front-matter custom class */
-  &.page-image--contain,
-  .page-image--contain & {
-    .post-image img {
-      object-fit: contain;
-      max-width: 100%;
-      height: auto;
-    }
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+    position: static; /* override any absolute positioning from generic rules */
   }
+}
+
+/* ensure project-header wrapper respects the modifier if used on the wrapper */
+.project-header.page-image--contain,
+.page-image--contain.project-header {
+  max-width: 420px;
+  margin: 1.5rem auto;
 }
