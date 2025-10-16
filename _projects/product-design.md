@@ -1,70 +1,72 @@
 ---
-title: Sketch to Reality: Mid-Century Modern Record Cabinet Build
-date: 2025-05-15 08:01:35 +0300
+title: "Sketch to Reality: Mid-Century Modern Record Cabinet Build"
+date: 2025-10-14 08:01:35 +0300
 subtitle: An exercise in design thinking, iteration, and craftsmanship.
 image: /images/projects/design/record-cabinet/cabinet_final.jpg
 image_style: contain
-image_scale: 40        # ← percent of container width
+image_scale: 50        # ← percent of container width
 carousel: true
 ---
 
-## Record Cabinet Design and Build
+## Mid-Century Modern Record Cabinet
 
-This project combined traditional woodworking craftsmanship with modern design principles to produce a **mid-century-inspired record cabinet** — built from beautiful walnut, engineered for strength, proportion, and functional beauty.
-
----
-
-### Design Objectives
-
-The piece was designed to **complement vintage stereo equipment** while maintaining a minimal, timeless aesthetic.  
-Key goals included:
-
-- Housing a turntable, amplifier, and record collection within a clean profile  
-- Concealing cables and components while keeping everything accessible  
-- Maintaining durability through solid joinery and high-tolerance fitting  
+This project blends **functional design and craftsmanship** to create a **mid-century-inspired record cabinet** that serves as both a piece of furniture and a sculptural artwork.  
+Built from **American Walnut**, the cabinet unites precision joinery, thoughtful ergonomics, and aesthetic balance — designed to house a vinyl collection and turntable while elevating the visual harmony of a living space.
 
 ---
 
-### Material Selection and Preparation
+### Design Concept
 
-- **Wood species:** Selected walnut for its tonal richness and dimensional stability.  
-- **Panel construction:** Used book-matched boards for visual symmetry across cabinet doors.  
-- **Joinery:** Employed dowel and rabbet joints for strength and clean internal geometry.  
-- **Surface prep:** Sanded progressively from 80-grit to 320-grit for glass-smooth finishing.  
+The record cabinet was envisioned as a **functional centerpiece**, combining storage and art in one cohesive form.  
+Its proportions and surface geometry were refined to maintain a low, balanced stance — allowing the piece to integrate naturally with vintage stereo components and contemporary interiors alike.
 
----
-
-### Design Process
-
-1. **Conceptual Modeling** – Created a digital model using [SketchUp](https://www.sketchup.com/){:target="_blank"} to finalize internal clearances and optimize material yield.  
-2. **Dimensional Planning** – Designed compartments sized for 12-inch LPs, with additional ventilation clearance for the amplifier bay.  
-3. **Cut List Automation** – Exported optimized panel dimensions to reduce waste from each board foot.  
+**Key objectives:**
+- Accommodate turntable, amplifier, and vinyl collection in an intuitive layout  
+- Employ sustainable hardwood and enduring joinery techniques  
+- Achieve visual lightness through curved elements and open shadow lines  
+- Design an heirloom-quality object that stands as both functional and artistic  
 
 ---
 
-### Fabrication and Assembly
+### Material Selection
 
-- Cut and joined side panels using precision guides and a custom fence jig.  
-- Built removable back panels for wiring access.  
-- Installed vibration-isolating rubber feet and cushioned turntable mount points.  
-- Aligned the face frame and flush doors with rare-earth magnetic catches for a seamless appearance.  
+- **Wood Species:** *American Walnut* — chosen for its warmth, dimensional stability, and natural chatoyance that deepens over time.  
+- **Hardware:** Brass accent pulls and concealed rare-earth magnetic catches for minimalist detailing.  
+- **Sliding Doors:** Designed and fabricated **tambour-style doors** from continuous walnut slats — allowing seamless curvature and motion while visually tying the entire facade together.  
 
 ---
 
-### Finishing
+### Design & Build Process
 
-- Applied Danish oil followed by hand-rubbed polyurethane for a satin-sheen protective finish.  
-- Final buffing with 0000 steel wool enhanced depth and tactile warmth.  
-- Added brass hardware for subtle contrast against the dark walnut tone.  
+1. **Digital Planning** – Modeled the cabinet in [SketchUp](https://www.sketchup.com/){:target="_blank"} to finalize internal dimensions and tambour track geometry.  
+2. **Joinery Precision** – Utilized dowel joinery for invisible reinforcement and square alignment of frame members.  
+3. **Tambour Fabrication** – Routed slat edges and applied canvas backing to enable flexible, smooth door operation within curved tracks.  
+4. **Assembly** – Built the carcass with inset base supports for weight distribution and floated back panels for expansion control.  
+5. **Finishing Touches** – Added vibration-damping isolation feet and hidden cable routing for audio components.  
+
+---
+
+### Surface Finishing
+
+- Applied Danish oil for natural color enhancement  
+- Hand-rubbed polyurethane for a satin, durable finish  
+- Final polishing with 0000-grade steel wool for soft, tactile sheen  
+
+---
+
+### Design Philosophy
+
+The cabinet embodies **functional minimalism** — a union of utility and aesthetic restraint.  
+Its design language draws from mid-century modern principles: *clean lines, honest materials, and a celebration of form following function.*
 
 ---
 
 ### Skills Demonstrated
 
-- Furniture design and dimensional planning  
-- Joinery and jig fabrication for precision woodworking  
-- CAD modeling and cut-list optimization  
-- Surface finishing and hardware integration  
-- Problem-solving through iterative prototyping and fit testing  
+- Furniture design and dimensional optimization  
+- Custom tambour door fabrication  
+- Joinery layout and precision woodworking  
+- Finishing and color control on American Walnut  
+- Integration of functional hardware and user-centered design  
 
 {% include swiper.html images=site.data.recordcabinet_images %}
