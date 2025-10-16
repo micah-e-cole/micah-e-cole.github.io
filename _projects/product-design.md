@@ -2,7 +2,7 @@
 title: Sketch to Reality: Mid-Century Modern Record Cabinet Build
 date: 2025-05-15 08:01:35 +0300
 subtitle: An exercise in design thinking, iteration, and craftsmanship.
-image: /images/projects/design/record-cabinet/Doors-Installed.JPG
+image: /images/projects/design/record-cabinet/cabinet_final.jpg
 image_style: contain
 image_scale: 40        # ← percent of container width
 carousel: true
@@ -10,7 +10,7 @@ carousel: true
 
 ## Record Cabinet Design and Build
 
-This project combined traditional woodworking craftsmanship with modern design principles to produce a **mid-century-inspired record cabinet** — built from solid hardwood, engineered for strength, proportion, and functional beauty.
+This project combined traditional woodworking craftsmanship with modern design principles to produce a **mid-century-inspired record cabinet** — built from beautiful walnut, engineered for strength, proportion, and functional beauty.
 
 ---
 
