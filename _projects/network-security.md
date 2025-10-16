@@ -2,7 +2,9 @@
 title: Tooling Gaps In Util-Linux Library For Network Security Tools
 date: 2025-02-20 08:00:00 +0300
 subtitle: Cybersecurity/ DFIR Utility
-image: '/images/projects/network-sec-tools/netsectools-100.jpg'
+image: /images/projects/network-sec-tools/netsectools-100.jpg
+image_style: contain
+image_scale: 45        # ← percent of container width
 ---
 #### Project Overview
 As part of my hands-on learning in Network and IT Security, I identified a gap in tooling for inspecting wtmp log files on Kali Linux. The package util-linux no longer comes bundled utmpdump for logging wtmp files when run for Kali environments. I needed a way to translate binary wtmp system logs into human-readable text for Digital Forensics and Incident Response (DFIR) purposes.

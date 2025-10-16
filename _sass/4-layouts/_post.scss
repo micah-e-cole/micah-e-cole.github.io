@@ -1,4 +1,9 @@
-/* Post + Page */
+/* ==========================================================
+   POST + PAGE LAYOUTS  —  Baleon (Modified)
+   Includes responsive fixes + image scaling variants
+   ========================================================== */
+
+/* --- Shared Head Section --- */
 .post-head,
 .page-head {
   max-width: 960px;
@@ -14,6 +19,7 @@
       cursor: pointer;
     }
 
+    /* Hero-width inline image override via hash */
     &[src$='#wide'] {
       display: block;
       width: 100vw;
@@ -82,55 +88,60 @@
     }
   }
 
+  /* --- Default image container --- */
   .post-image,
   .page-image {
     position: relative;
     transform: translate(0);
-    aspect-ratio: 4/3;
-    border-radius: 12%;
-    width: 50%;
-    height: 50%;
-    overflow: auto;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 20px;
     background: var(--background-alt-color);
-
-    /* Centering */
-    margin: 0 auto;
+    margin: 1.5rem auto;
     display: flex;
     justify-content: center;
     align-items: center;
 
     img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+      position: static;
       display: block;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
       user-select: none;
+      border-radius: inherit;
     }
+  }
 
-    @supports not (aspect-ratio: 4/3) {
+  /* Fallback for browsers without aspect-ratio */
+  @supports not (aspect-ratio: 4/3) {
+    .post-image,
+    .page-image {
       padding-bottom: 75%;
     }
   }
 
-  .page-image--contain,
-  .post-image--contain {
-    aspect-ratio: auto;
-    width: 75%;
+  /* --- Contained variant (project screenshots, icons) --- */
+  .post-image--contain,
+  .page-image--contain {
+    width: 100%;
+    max-width: 780px;
     height: auto;
+    aspect-ratio: auto;
     overflow: visible;
-    border-radius: 8px;
-    margin: 1.5rem auto;
+    border-radius: 12px;
     background: none;
+    margin: 1.5rem auto;
+    display: block;
 
     img {
       position: static;
       width: 100%;
       height: auto;
-      object-fit: contain; /* ✅ show entire image */
+      object-fit: contain;
       display: block;
+      border-radius: inherit;
     }
 
     @media (max-width: $mobile) {
@@ -138,31 +149,27 @@
     }
   }
 
-  .post-video,
-  .page-video {
-    margin-bottom: 32px;
-    border-radius: 24px;
-    overflow: hidden;
-    transform: translate(0);
-    background-color: var(--background-alt-color);
+  /* --- Wide variant (edge-to-edge hero image) --- */
+  .post-image--wide,
+  .page-image--wide {
+    display: block;
+    width: 100vw !important;
+    max-width: none !important;
+    margin-left: 50% !important;
+    transform: translateX(-50%) !important;
+    border-radius: 0 !important;
+    aspect-ratio: auto !important;
 
-    .post-video__wrap,
-    .page-video__wrap {
-      position: relative;
-      width: 100%;
-      height: 0;
-      padding-bottom: 75%;
-
-      iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
+    img {
+      width: 100% !important;
+      height: auto !important;
+      object-fit: contain !important;
+      position: static !important;
+      border-radius: 0 !important;
     }
   }
 
+  /* --- Responsive Typography --- */
   @media (max-width: $desktop) {
     .post-info,
     .page-info {
@@ -172,11 +179,6 @@
     .post-title,
     .page-title {
       font-size: 46px;
-    }
-
-    .post-image,
-    .page-image {
-      border-radius: 20px;
     }
   }
 
@@ -193,6 +195,7 @@
   }
 }
 
+/* --- Body Content Area --- */
 .post,
 .page {
   max-width: 780px;
@@ -205,6 +208,7 @@
       text-decoration-color: var(--link-color);
     }
 
+    /* Responsive inline images */
     img,
     .gallery {
       & + em {
@@ -225,8 +229,11 @@
     }
 
     img {
+      display: block;
+      width: 100%;
+      height: auto;
       border-radius: 24px;
-      overflow: hidden;
+      object-fit: contain;
       cursor: zoom-in;
 
       &.image-link {
@@ -234,6 +241,7 @@
       }
     }
 
+    /* Inline “#wide” tag images */
     img[src$='#wide'] {
       display: block;
       width: 100vw;
@@ -267,6 +275,7 @@
   }
 }
 
+/* --- Post Bottom Meta Section --- */
 .post__bottom,
 .page__bottom {
   display: flex;
@@ -283,6 +292,7 @@
   }
 }
 
+/* --- Author --- */
 .post__author {
   display: flex;
   align-items: center;
@@ -325,6 +335,7 @@
   }
 }
 
+/* --- Navigation --- */
 .post__navigation {
   padding: 32px 0;
   border-bottom: 1px solid var(--border-color);
@@ -359,7 +370,7 @@
   }
 }
 
-/* Share */
+/* --- Share --- */
 .share {
   .share__title {
     margin-bottom: 20px;
@@ -395,9 +406,7 @@
     width: 40px;
     height: 40px;
     font-size: 18px;
-    text-transform: uppercase;
     border: none;
-    text-decoration: none;
     border-radius: 12px;
     background: var(--background-alt-color);
 
@@ -408,7 +417,7 @@
   }
 }
 
-/* Related */
+/* --- Related Posts --- */
 .post__related {
   margin-bottom: -32px;
 
@@ -417,7 +426,7 @@
   }
 }
 
-/* Disqus */
+/* --- Comments --- */
 .show-comments {
   text-align: center;
 }
@@ -432,7 +441,7 @@
   }
 }
 
-/* 404 Page */
+/* --- 404 Page --- */
 .error {
   text-align: center;
 
@@ -453,37 +462,7 @@
   }
 }
 
-/* === Custom Modifier: Contained project image (e.g., Parsely) === */
-.post-image--contain,
-.page-image--contain {
-  /* general container sizing for contained images */
-  width: auto;
-  max-width: 420px;      /* limit frame width for icons */
-  margin: 1.5rem auto;   /* center and add vertical spacing */
-  overflow: visible;
-  border-radius: 8px;
-  display: block;        /* not a flex container here */
-
-  .post-image,
-  .page-image {
-    width: 100%;
-    height: auto;
-    aspect-ratio: auto;
-    overflow: visible;
-    border-radius: inherit;
-  }
-
-  img {
-    display: block;
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    object-fit: contain;
-    position: static; /* override any absolute positioning from generic rules */
-  }
-}
-
-/* ensure project-header wrapper respects the modifier if used on the wrapper */
+/* --- Project Header Modifiers --- */
 .project-header.page-image--contain,
 .page-image--contain.project-header {
   max-width: 420px;

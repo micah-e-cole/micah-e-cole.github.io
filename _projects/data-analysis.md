@@ -2,7 +2,9 @@
 title: "Expanding BI Skills: Customer Churn Analysis Dashboard in Tableau"
 date: 2025-07-09 08:01:35 +0300
 subtitle: Customer Churn Analysis and Dashboard Design in Tableau
-image: '/images/projects/data/Tableau/churn_analysis.jpg'
+image: /images/projects/data/Tableau/churn_analysis.jpg
+image_style: contain
+image_scale: 80        # ← percent of container width
 ---
 
 **Role:** Developer & Data Analyst<br>

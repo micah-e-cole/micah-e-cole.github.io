@@ -26,11 +26,22 @@ layout: default
     {% else %}
 
     {% if page.image %}
-    <div class="project-header">
-      <div class="post-image">
-        <img class="lazy" data-src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+      {% assign image_class = "post-image" %}
+
+      {% if page.image_style == "contain" %}
+        {% assign image_class = image_class | append: " post-image--contain" %}
+      {% elsif page.image_style == "wide" %}
+        {% assign image_class = image_class | append: " post-image--wide" %}
+      {% endif %}
+
+      {% assign image_width = page.image_scale | default: 100 %}
+      <div class="{{ image_class }}" style="max-width: {{ image_width }}%;">
+        <img
+          class="lazy"
+          data-src="{{ page.image | relative_url }}"
+          alt="{{ page.title | escape }}"
+          loading="lazy">
       </div>
-    </div>
     {% endif %}
     {% endif %}
   </div>

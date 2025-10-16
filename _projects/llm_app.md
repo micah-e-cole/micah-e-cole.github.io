@@ -2,7 +2,9 @@
 title: "Enhancing Data Applications: LLM-Powered Resume Writing Streamlit App"
 date: 2025-07-18 08:01:35 +0300
 subtitle: Building Interactive LLM Apps Using Streamlit and Python
-image: '/images/projects/software-dev/LLM_project_image.jpg'
+image: /images/projects/software-dev/LLM_project_image.jpg
+image_style: contain
+image_scale: 25        # ← percent of container width
 ---
 **Role:** Developer & AI Engineer<br>
 **Status:** Beta Testing<br>

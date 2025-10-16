@@ -2,7 +2,9 @@
 title: Stakeholder Engagement And Product Design
 date: 2021-05-04 08:01:35 +0300
 subtitle: Project management, product design, and technical acumen
-image: '/images/projects/carpentry/projectFinal.jpg'
+image: /images/projects/carpentry/projectFinal.jpg
+image_style: contain
+image_scale: 65        # ← percent of container width
 carousel: true
 ---
 ## Soundwave Art Installation

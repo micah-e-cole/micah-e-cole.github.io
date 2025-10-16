@@ -2,7 +2,9 @@
 title: Visual Storytelling With User Experience/User Interface Design (Educational Project)
 date: 2023-06-25 08:01:35 +0300
 subtitle: Web Design
-image: '/images/projects/ux-ui/homepage.jpg'
+image: /images/projects/ux-ui/homepage.jpg
+image_style: contain
+image_scale: 50        # ← percent of container width
 ---
 ## UX/UI Design
 For a course in User Experience Design, I learned how to use the prototyping tool, Figma, to design a website for the fictional island of Taniti. Designs were determined using user research (both written and solicited) as well as course materials for required elements.

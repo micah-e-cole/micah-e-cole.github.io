@@ -2,7 +2,9 @@
 title: Designing Solutions & Technical Communication
 date: 2024-11-07 08:01:35 +0300
 subtitle: Designing a cost-effective product without sacrificing form
-image: '/images/projects/design/cad-design/BF_View1_100x.jpg'
+image: /images/projects/design/cad-design/BF_View1_100x.jpg
+image_style: contain
+image_scale: 50       # ← percent of container width
 ---
 
 ## Behind the Design

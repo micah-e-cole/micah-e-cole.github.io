@@ -2,7 +2,9 @@
 title: Continuous Development/Continuous Integration (CI/CD) With JavaScript
 date: 2021-10-19 08:01:35 +0300
 subtitle: Word Guessing Game Project Management
-image: '/images/projects/design/webdev/webapp.png'
+image: /images/projects/design/webdev/webapp.png
+image_style: contain
+image_scale: 70        # ← percent of container width
 ---
 **Role:** Developer<br>
 **Status:** Completed 2021 - Actively Maintained<br>
