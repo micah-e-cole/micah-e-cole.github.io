@@ -11,7 +11,6 @@ carousel: true
 
 I conceptualized, designed, and built a large-format, wall-mounted wood art installation from scratch, translating a digital soundwave into a physical piece using hand-selected materials and custom tooling solutions.
 
-
 ### Process Overview
 
 ### User-Centered Design: 
