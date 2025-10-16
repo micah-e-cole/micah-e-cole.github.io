@@ -48,9 +48,9 @@ Its proportions and surface geometry were refined to maintain a low, balanced st
 
 ### Surface Finishing
 
-- Applied Danish oil for natural color enhancement  
-- Hand-rubbed polyurethane for a satin, durable finish  
-- Final polishing with 0000-grade steel wool for soft, tactile sheen  
+- Applied clear lacquer for natural color enhancement  
+- Hand-rubbed finish for a satin, durable finish  
+- Final polishing with fine cloth for soft, tactile sheen  
 
 ---
 
