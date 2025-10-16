@@ -69,4 +69,17 @@ Its design language draws from mid-century modern principles: *clean lines, hone
 - Finishing and color control on American Walnut  
 - Integration of functional hardware and user-centered design  
 
+---
+
+### Materials & Tools Summary
+
+| Category | Details |
+|-----------|----------|
+| **Primary Material** | American Walnut |
+| **Joinery** | Dowel joints, mitre joints, rabbet joints, splines|
+| **Sliding Mechanism** | Hand-routed tambour tracks with canvas-backed walnut slats |
+| **Finishes** | Clear, natural lacquer applied by hand, cloth polish |
+| **Tools Used** | Jointer, planer, table saw, band saw, hand planes, chisels, routers, hand saws, drill press, hand drills, precision measuring tools |
+| **Digital Design** | SketchUp for CAD modeling and cut-list optimization |
+
 {% include swiper.html images=site.data.recordcabinet_images %}
