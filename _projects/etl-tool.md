@@ -1,6 +1,6 @@
 ---
 title: "ERP Data Cleaning and Reporting Tool"
-date: 2026-03-04 09:15:00 +0300
+date: 2026-04-03 09:15:00 +0300
 subtitle: Type: Desktop Productivity Tool (Python + tkinter GUI)
 image: /images/projects/etl/etl_pipeline.png
 image_style: contain
