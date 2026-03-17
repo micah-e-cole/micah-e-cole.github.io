@@ -1,5 +1,5 @@
 ---
-title: "ERP Data Cleaning and Reporting Tool Python Desktop Application for Automated ERP Data Standardization"
+title: "ERP Data Cleaning and Reporting Tool"
 date: 2026-03-04 09:15:00 +0300
 subtitle: Type: Desktop Productivity Tool (Python + tkinter GUI)
 image: /images/projects/etl/etl_pipeline.png
@@ -31,7 +31,7 @@ A colleague's ERP reporting workflow required manual data cleaning that was time
 - Built the transformation layer to be configurable so future changes to ERP output formats could be accommodated without rewriting core logic
 - Ensured output files matched the exact format required for downstream reporting tools, eliminating manual reformatting steps entirely
 
-#### v2.0 — User-Driven Feature Expansion
+#### v2.0 User-Driven Feature Expansion
 - Received a feature request from the workflow owner after initial deployment: the ERP system produces two structurally different report types requiring distinct cleaning logic
 - Extended the application to prompt the user at launch to identify which report type they are processing, routing the input through the appropriate transformation pipeline automatically
 - Added batch processing capability allowing the user to select and process a collection of files in a single operation rather than one file at a time
