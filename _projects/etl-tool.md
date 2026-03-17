@@ -29,18 +29,18 @@ A colleague's ERP reporting workflow required manual data cleaning that was time
 ##### ETL Pipeline Design
 - Designed the extract, transform, and load pipeline to handle the specific structural quirks of the ERP exports, including inconsistent delimiters, mixed data types, and irregular column ordering
 - Built the transformation layer to be configurable so future changes to ERP output formats could be accommodated without rewriting core logic
-- Ensured output files matched the exact format required for downstream reporting tools, eliminating manual reformatting steps entirely
+- Ensured output files matched the exact format required for downstream reporting tools, eliminating manual reformatting steps entirely<br><br>
 
 #### v2.0 User-Driven Feature Expansion
 - Received a feature request from the workflow owner after initial deployment: the ERP system produces two structurally different report types requiring distinct cleaning logic
 - Extended the application to prompt the user at launch to identify which report type they are processing, routing the input through the appropriate transformation pipeline automatically
 - Added batch processing capability allowing the user to select and process a collection of files in a single operation rather than one file at a time
-- Both additions were driven directly by real user feedback gathered after deployment, reflecting an iterative product development cycle
+- Both additions were driven directly by real user feedback gathered after deployment, reflecting an iterative product development cycle<br><br>
 
 #### Enablement & Handoff
 - Delivered both versions with updated user documentation so the colleague could train new users independently
 - Designed the interface to remain self-explanatory for non-technical users across both versions
-- Structured the codebase with inline comments so future modifications could be made without the original developer
+- Structured the codebase with inline comments so future modifications could be made without the original developer<br><br>
 
 #### Skills Demonstrated
 - Requirements gathering and end-user consultation prior to development
