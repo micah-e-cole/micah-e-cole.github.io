@@ -29,6 +29,7 @@ collections:
     output: true
     permalink: /project/:slug
 
+# Extra comments for future collections
 # Pages Path
 defaults:
   - scope:
