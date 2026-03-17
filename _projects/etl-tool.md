@@ -1,7 +1,7 @@
 ---
 title: "ERP Data Cleaning and Reporting Tool"
 date: 2026-04-03 09:15:00 +0300
-subtitle: Type: Desktop Productivity Tool (Python + tkinter GUI)
+subtitle: Desktop Productivity Tool (Python + tkinter GUI)
 image: /images/projects/etl/etl_pipeline.png
 image_style: contain
 image_scale: 25        # ← percent of container width
