@@ -4,8 +4,12 @@ title: About <em>Me</em>
 permalink: /about/
 image: '/images/profile_image_sidebar.jpg'
 ---
-Hey there, thanks for stopping by! I’m Micah, and I’m all about using technology to solve real problems. From working with data to optimizing hardware and improving security, I’m constantly exploring new ways to make things run smoother. With a background in IT, data analysis, and cybersecurity, I love finding creative solutions that make a real impact—whether it's improving systems or helping people navigate complex tech. I’m passionate about learning, growing, and sharing what I know. Let’s see how we can make things better together!
+I build tools and systems that make data reliable, accessible, and useful.
 
-I strongly believe in giving back to the community that has supported me along the way. I dedicate time to volunteering, sharing knowledge in forums, and contributing to open-source projects. Collaborating with fellow professionals and helping others grow brings me a sense of purpose and connection.
+My background spans data analysis, systems administration, process automation, and compliance-regulated environments. I have spent the better part of a decade solving operational problems by building things — from Python ETL tools and Excel automation systems to Power BI dashboards and local LLM applications. The through-line in all of it is the same: find where the friction is, understand what the people closest to the problem actually need, and build something they can own and use without coming back to me every time.
 
-My journey in technology has been a path of growth, learning, and continuous improvement. I’m grateful for every opportunity to solve problems, every challenge that has sharpened my skills, and every success that motivates me to keep pushing forward. With a sense of excitement and dedication, I’m always looking ahead to the next chapter in my tech journey.
+I work daily with SQL, Python, and Power BI, and I integrate AI tools including Claude, GitHub Copilot, and Microsoft Copilot into my workflows as standard practice. I have operated within FERPA and HIPAA compliance frameworks, which means data accuracy and responsible access are foundational to how I approach every project.
+
+Outside of professional work I contribute to open source projects, participate in knowledge-sharing forums, and volunteer time to help others navigate the technology landscape. Giving back to the community that helped shape my skills is something I take seriously.
+
+I am currently open to data analyst, systems analyst, and data operations roles at companies where building reliable, impactful data systems is the core of the work.
