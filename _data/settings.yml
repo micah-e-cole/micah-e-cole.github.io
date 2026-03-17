@@ -23,17 +23,17 @@ menu_settings:
 #-------------------------------
 # Author Settings
 author:
-  author_intro: Hey, I'm Micah Cole
+  # author_intro: Hey, I'm Micah Cole
   author_name: Micah Cole
-  author_role: Software Devloper//DevOps
-  author_avatar: /images/img_logo_1.png # was 01.jpg
+  author_role: Data & Systems Analyst
+  # author_avatar: /images/img_logo_1.png # was 01.jpg
 
 
 #-------------------------------
 # Sidebar Section Settings
 sidebar:
-  sidebar_title: Data, security, and IT—solving problems with tech.
-  sidebar_description: Showcasing my expertise in data analysis, cybersecurity, IT, and Software Development/Engineering through articles and projects. Explore my work in problem-solving, design, automation, and innovative solutions.
+  sidebar_title: Turning operational data into tools and insights that drive decisions.
+  sidebar_description: SQL · Python · Power BI · AI-Augmented Workflows
 
 
 # Social Links

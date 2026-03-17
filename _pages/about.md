@@ -2,7 +2,7 @@
 layout: page
 title: About <em>Me</em>
 permalink: /about/
-image: '/images/profile_image_sidebar.jpg'
+# image: '/images/profile_image_sidebar.jpg'
 ---
 I build tools and systems that make data reliable, accessible, and useful.
 
